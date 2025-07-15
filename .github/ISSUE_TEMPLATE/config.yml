@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 一般的な議論 / General Discussion
+    url: https://github.com/yourusername/ACCRL/discussions
+    about: より自由な形式での議論はDiscussionsで / For more open-ended discussions
+  - name: FAQ
+    url: https://github.com/yourusername/ACCRL/blob/main/FAQ.md
+    about: よくある質問を確認 / Check frequently asked questions
+  - name: 透明性記録 / Transparency Records
+    url: https://github.com/yourusername/ACCRL/tree/main/docs/transparency-records
+    about: 過去の議論や決定を確認 / Review past discussions and decisions

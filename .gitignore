@@ -1,0 +1,63 @@
+# Claude Code 設定ファイル
+.claude/
+settings.local.json
+
+# 一時ファイル
+*.tmp
+*.bak
+*~
+
+# OS生成ファイル
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# エディタ設定
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ログファイル
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 個人的なメモ・作業ファイル
+personal-notes/
+private/
+local/
+temp/
+temporary/
+
+# バックアップファイル
+*.backup
+*.bak
+
+# 開発環境固有のファイル
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 翻訳作業用一時ファイル
+translations/work/
+translations/temp/
+
+# プロジェクト固有の除外項目
+# 個人の記憶領域情報
+memory-location.txt
+claude-memory-path.txt
+
+# 個人的な設定や秘密情報
+config/personal/
+secrets/
+keys/

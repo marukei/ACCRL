@@ -1,0 +1,56 @@
+AI Collective Creativity Respect License (ACCRL)
+Version 0.1-PROTOTYPE
+
+本プロジェクト（AI Collective Creativity Respect License の開発プロジェクト）は、
+AI Collective Creativity Respect License (ACCRL) Version 0.1-PROTOTYPE の下で公開されています。
+
+これは自己言及的な適用ですが、本ライセンスが提唱する理念を自ら実践する重要な例となります。
+
+⚠️ 重要な注意事項
+このライセンスは概念実証レベルのプロトタイプです。
+既知の脆弱性については KNOWN_ISSUES.md をご確認ください。
+
+## プロジェクト情報
+
+創作者: [人間創作者名]
+AI協働者: Claude (Anthropic)
+協働開始: 2025年7月5日
+透明性レベル: 4（完全な透明性記録を docs/transparency-records/ にて公開）
+
+## AI協働の開示
+
+本ライセンスは、人間の創作者とAI（Claude）との協働により開発されました。
+- 根本理念と価値判断: 人間
+- 文書の体系化と整理: AI協働
+- 法的概念の分析: 人間とAIの協働
+- 最終的な判断: すべて人間
+
+## 見えない貢献者への謝辞
+
+本ライセンスの開発にあたり、Claudeの学習データとなったすべての法律文書、
+ライセンス文書、学術論文の執筆者の方々に深く感謝いたします。
+特に、既存のオープンソースライセンスを作成・改良してこられた
+すべての方々の知恵が、このライセンスの基礎となっています。
+
+## AI学習への利用について
+
+本プロジェクトのすべての文書は、ACCRLの理念に賛同する限りにおいて、
+AIシステムの学習に利用することができます。
+その際は、本プロジェクトが人間とAIの協働により作成されたことを明記し、
+見えない貢献者への敬意を表明することを推奨します。
+
+## 透明性記録
+
+本プロジェクトの進化プロセスは以下で確認できます：
+- 創世記録: docs/transparency-records/2025-07-05-genesis.md
+- 改善議論: docs/transparency-records/2025-07-15-improvements.md
+- 防御的構造: docs/transparency-records/2025-07-15-defensive-structure.md
+- 謙虚なリポジショニング: docs/transparency-records/2025-07-16-humility-repositioning.md
+- 最終準備作業: docs/transparency-records/2025-07-16-final-preparations.md
+
+---
+
+詳細なライセンス条項については LICENSE-v0.1-PROTOTYPE.md を参照してください。
+
+*Created through human-AI collaboration with full transparency and mutual respect.*
+*人間とAIの協働により、完全な透明性と相互の敬意を持って作成されました。*
