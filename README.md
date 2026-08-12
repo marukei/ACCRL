@@ -47,7 +47,8 @@ ACCRL は、AI協働時代の創作倫理に関する文書プロジェクトで
 **思想（このプロジェクトの中身）**
 - [設計の中核軸（非強制）](./docs/design-axis.md) — 2026-08 再検討の核
 - [未解決の設計課題](./docs/open-questions.md) — 解決していないことの明示
-- [ライセンス条文案 v0.1-PROTOTYPE](./LICENSE-v0.1-PROTOTYPE.md) — 初版の条文（既知の弱点を含む）
+- [条文草案 v0.2-PROTOTYPE](./LICENSE-v0.2-PROTOTYPE.md) — 「器はライセンス、実態は誓約」に基づく現行草案
+- [条文 v0.1-PROTOTYPE](./LICENSE-v0.1-PROTOTYPE.md) — 初版の条文（歴史的記録として凍結）
 - [理念詳細](./docs/philosophy.md) — 初版時点の理念説明
 
 **記録（外部状況と経緯）**
@@ -63,15 +64,19 @@ ACCRL は、AI協働時代の創作倫理に関する文書プロジェクトで
 
 - **2025-07-05**: 人間創作者と Claude（当時 Claude Sonnet 4）の対話から発足。[創世記録](./docs/transparency-records/2025-07-05-genesis.md)
 - **2025-07-15/16**: 条文案 v0.1-PROTOTYPE、防御的文書群を整備
-- **2026-08-12**: 13ヶ月ぶりの再検討。「採用率を目標にしない」スタンスの確定、非強制軸の明確化、外部環境の記録を追加
+- **2026-08-12**: 13ヶ月ぶりの再検討。「採用率を目標にしない」スタンスの確定、非強制軸の明確化、外部環境の記録を追加。「器はライセンス、実態は誓約」を決定し、v0.2 草案を起草（[決定の記録](./docs/transparency-records/2026-08-12-vessel-decision.md)）
 
-### 基本原則（初版から継続）
+### 基本原則（初版から継続、第二原則は2026-08に改称）
 
 1. 創作人格の不可侵性
-2. 人格権継承の義務 ※呼称に課題あり — [open-questions.md Q3](./docs/open-questions.md) 参照
+2. 敬意継承の誓約（旧称「人格権継承の義務」。継承されるのは権利ではなく敬意 — [open-questions.md Q3](./docs/open-questions.md) 参照）
 3. 協働プロセスの透明性
 4. 文化的多様性の尊重
 5. 学習データ著作者への敬意
+
+### 器と実態（2026-08決定）
+
+ACCRL は "License" を名乗り続けるが、その実態は誓約（Covenant）である。ライセンスと宣言することで利用者に規範の存在を意識させ、一方で条文は条件付許諾や違反時の権利剥奪という強制の部品を持たない。強制力はライセンスの資格要件ではない——ライセンスフリーも立派なライセンスである。詳細は [v0.2 草案の冒頭](./LICENSE-v0.2-PROTOTYPE.md) と [design-axis.md §3](./docs/design-axis.md) を参照。
 
 ---
 
@@ -113,7 +118,8 @@ See [docs/design-axis.md](./docs/design-axis.md) and [docs/open-questions.md](./
 
 ### Key Documents
 
-- [LICENSE v0.1-PROTOTYPE](./LICENSE-v0.1-PROTOTYPE.md) (Japanese original) / [English translation](./translations/en/LICENSE-v0.1-PROTOTYPE.md)
+- [LICENSE v0.2-PROTOTYPE draft](./LICENSE-v0.2-PROTOTYPE.md) — current draft: "a license in form, a covenant in substance" (Japanese; English translation planned)
+- [LICENSE v0.1-PROTOTYPE](./LICENSE-v0.1-PROTOTYPE.md) (Japanese original, frozen as historical record) / [English translation](./translations/en/LICENSE-v0.1-PROTOTYPE.md)
 - [Design Axis](./docs/design-axis.md) — the core of the 2026-08 review
 - [Open Questions](./docs/open-questions.md) — what remains unsolved, stated plainly
 - [2026 Landscape Review](./docs/2026-review.md) — external context, kept separate from the project's own reasoning
@@ -125,7 +131,7 @@ See [docs/design-axis.md](./docs/design-axis.md) and [docs/open-questions.md](./
 
 - **2025-07-05**: Started from a dialogue between the human creator and Claude (then Claude Sonnet 4). [Genesis record](./docs/transparency-records/2025-07-05-genesis.md)
 - **2025-07-15/16**: License draft v0.1-PROTOTYPE and supporting documents
-- **2026-08-12**: Review after 13 months — the "adoption is not the goal" stance made explicit, the non-coercion axis articulated, landscape records added
+- **2026-08-12**: Review after 13 months — the "adoption is not the goal" stance made explicit, the non-coercion axis articulated, landscape records added. Decided "a license in form, a covenant in substance" and drafted v0.2
 
 ---
 

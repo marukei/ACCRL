@@ -33,7 +33,8 @@ AI Collective Creativity Respect License (ACCRL) - AI時代における新しい
 
 ```
 ACCRL/
-├── LICENSE-v0.1-PROTOTYPE.md  # ライセンス条文案（メインドキュメント）
+├── LICENSE-v0.2-PROTOTYPE.md  # 条文草案（2026-08、許諾＋誓約の二部構成）
+├── LICENSE-v0.1-PROTOTYPE.md  # 初版条文（歴史的記録として凍結）
 ├── LICENSE                    # 自己適用ライセンス
 ├── README.md                 # プロジェクト概要（入口。短く保つ）
 ├── KNOWN_ISSUES.md           # 既知の課題と議論の呼びかけ（2025-07時点）
@@ -70,6 +71,7 @@ ACCRL/
 4. **思想（design-axis）と外部状況（2026-review）は必ず別ファイルで管理する**
 5. **批評は内在的（思想の不明瞭・矛盾の指摘）であるべきで、外形的（使われていない・法的に不利）であってはならない**
 6. **未確認の外部情報はリポジトリに載せない。載せる場合は「未確認」と明記する**（docs/sources.md で検証状況を管理）
+7. **「器はライセンス、実態は誓約」は決定済み（2026-08-12）。** "License" の名は維持し、条文は許諾＋誓約の二部構成とする。この決定を再び蒸し返さない（docs/transparency-records/2026-08-12-vessel-decision.md）
 
 ### 3. ライセンス条文作成時の注意点
 
