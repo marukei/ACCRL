@@ -1,5 +1,9 @@
 # 既知の課題と議論の呼びかけ / Known Issues and Call for Discussion
 
+> **2026-08 追記**: 本文書は2025年7月時点の課題一覧である。13ヶ月後の再検討で「本丸」と判断した設計課題は [docs/open-questions.md](./docs/open-questions.md) に絞り込んで整理した。あわせて参照のこと。
+>
+> **Note (2026-08)**: This document reflects the issues as of July 2025. The core design questions identified in the 13-month review are consolidated in [docs/open-questions.md](./docs/open-questions.md).
+
 ## 💡 本文書の目的 / Purpose of This Document
 
 このプロジェクトは**理念先行型プロトタイプ**です。完璧なソリューションではなく、AI時代の創作倫理について具体的な議論を促すための叩き台として公開しています。

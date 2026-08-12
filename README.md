@@ -1,187 +1,146 @@
 # AI Collective Creativity Respect License (ACCRL)
 
-[English](#english) | [日本語](#japanese)
-
----
-
-<a name="english"></a>
-## 🌍 English
-
-### ⚠️ Important Notice
-
-**ACCRL is an idealism-first prototype license.** We prioritize establishing ethical principles over legal perfection. This is a living document that evolves through community dialogue.
-
-### 🌟 What is ACCRL?
-
-ACCRL is a groundbreaking open-source license designed for the AI collaboration era. It shifts focus from copyright to moral rights, introducing the revolutionary concept of "Invisible Contributors" - creators whose works contributed to AI training data.
-
-**Key Features:**
-- **Moral Rights-Centric**: Protects creators' dignity over economic rights
-- **Non-Viral Copyleft**: Inherits principles without forcing adoption
-- **AI Collaboration Ready**: Explicit provisions for human-AI co-creation
-- **Transparency First**: Multi-level transparency requirements
-
-### 📚 Documentation Structure
-
-- **[LICENSE v0.1-PROTOTYPE](./LICENSE-v0.1-PROTOTYPE.md)** - The license text (Japanese original)
-- **[English License](./translations/en/LICENSE-v0.1-PROTOTYPE.md)** - English translation
-- **[Philosophy](./docs/philosophy.md)** - Detailed principles and ethics (Japanese)
-- **[Known Issues](./KNOWN_ISSUES.md)** - Current limitations and call for discussion 🚨**Important**
-- **[Transparency Records](./docs/transparency-records/)** - Evolution of ideas
-- **[Legal Analysis](./docs/legal-analysis/)** - Background research
-  - [License Comparison](./docs/legal-analysis/existing-licenses-comparison.md)
-  - [Moral Rights Framework](./docs/legal-analysis/moral-rights-framework.md)
-  - [AI Collaboration Challenges](./docs/legal-analysis/ai-collaboration-challenges.md)
-- **[Examples](./examples/)** - Implementation examples
-  - [Software Projects](./examples/software/)
-  - [Content Creation](./examples/content/)
-  - [AI Collaboration](./examples/ai-collaboration/)
-- **[Contributing](./CONTRIBUTING.md)** - How to contribute
-- **[FAQ](./FAQ.md)** - Frequently asked questions
-- **[Code of Conduct](./CODE_OF_CONDUCT.md)** - Community guidelines
-- **[Anti-Harassment Policy](./ANTI_HARASSMENT_POLICY.md)** - Response to malicious behavior
-- **[Discussions Guide](./DISCUSSIONS.md)** - How to participate
-- **[Translations](./translations/)** - Multi-language versions
-
-### 🚀 Quick Start
-
-1. Add `LICENSE` file to your project with ACCRL text
-2. Create `TRANSPARENCY.md` documenting AI collaboration
-3. Add attribution in your README:
-
-```markdown
-This project is licensed under [ACCRL](https://github.com/yourusername/ACCRL).
-AI Collaborator: [AI System Name]
-Transparency Level: [1-4]
-
-We acknowledge all creators whose works contributed to AI training.
-```
-
-### 🤝 Core Principles
-
-1. **Inviolability of Creative Personality**
-2. **Obligation to Inherit Moral Rights**
-3. **Transparency in Collaboration**
-4. **Respect for Cultural Diversity**
-5. **Gratitude to Invisible Contributors**
-
-### 📅 Development Roadmap
-
-- [x] Phase 0: Proof of Concept - Core principles and prototype
-- [ ] Phase 1: Vulnerability Assessment - Address known issues
-- [ ] Phase 2: Community Engagement - Gather feedback and discussion
-- [ ] Phase 3: Refinement - Legal review and iteration
-- [ ] Phase 4: Production Ready - Practical implementation
-
-### ⚠️ Known Limitations
-
-This is a **proof-of-concept prototype** with acknowledged vulnerabilities. See [KNOWN_ISSUES.md](./KNOWN_ISSUES.md) for detailed discussion of current limitations and call for community input.
-
-### 💡 This is Idealism
-
-Yes, this is idealistic. But ideals drive reality forward. ACCRL represents a necessary evolution in creative ethics for the AI age - starting with honest acknowledgment of what we don't yet know.
+[日本語](#japanese) | [English](#english)
 
 ---
 
 <a name="japanese"></a>
 ## 🇯🇵 日本語
 
-### ⚠️ 重要なお知らせ
+### このプロジェクトのスタンス
 
-**ACCRLは理念先行型のプロトタイプライセンスです。** 法的完璧性より倫理的原則の確立を優先しています。これはコミュニティとの対話を通じて進化する生きた文書です。
+**採用率を目標にしません。**
 
-### 🌟 プロジェクトの誕生
+このプロジェクトは、普及・話題性・実用性を成功指標としません。目的は、後年振り返ったときに「この時期にこういう問いを立てた文書が存在した」と参照できる記録を、淡々と残すことです。
 
-このライセンスは、AI時代における新しい創作倫理の必要性から生まれました。従来のオープンソースライセンスでは対応できない、AIとの協働作品における複雑な権利関係と、AI学習データに含まれる「見えない貢献者」への敬意を込めたライセンス体系です。
+そのため、「もっと使われるようにする」ための助言は求めていません。一方で、**「思想が不明瞭」「内部で矛盾している」という内在的な批判は歓迎します。** 詳しくは [設計の中核軸](./docs/design-axis.md) の冒頭をご覧ください。
 
-### 📖 創世記録
+### 何のプロジェクトか
 
-このプロジェクトは、人間の開発者とAI（Claude）との対話から始まりました。全ての発想過程を透明化し、人格権ベースライセンスの実証例とします。[詳細な対話記録](./docs/transparency-records/2025-07-05-genesis.md)
+ACCRL は、AI協働時代の創作倫理に関する文書プロジェクトです。著作権（経済的権利）ではなく著作者人格権を軸に、AI学習データに含まれる無数の創作者——「見えない貢献者」——への敬意を明文化する試みとして、2025年7月に始まりました。
 
-**人間の創作的寄与：**
-- 著作者人格権からのライセンス構築という根本発想
-- AI学習データ著作者への配慮という核心理念
-- 日本的人格権思想の国際展開戦略
-- 理念先行アプローチの決定
+初版は「ライセンス」の形をとっていますが、これは概念実証（v0.1-PROTOTYPE）であり、法的完成度より問いの提示を優先しています。
 
-### 🎯 根本理念
+### 設計の中核軸：非強制（Non-Coercion）
 
-```
-すべての創作は、過去の無数の創作者たちの肩の上に立っている。
-AI時代において、この「見えない貢献」はより顕著になった。
-私たちは、AIとの協働を歓迎しつつ、
-その背景にある創作者たちの人格権を尊重し、
-創作のエコシステム全体を守る責任がある。
-```
+初版で「4つの特徴」として並列に挙げていたものは、一本の軸から派生しています：
 
-### 🏗️ ライセンスの特徴
+> ライセンスの普及とは、それまで何の立場でもなかった人を被許諾者（licensee）という位置に置くことであり、権利の網が一枚増えることである。ACCRL はこの構造への危惧から出発し、**強制によらない規範の伝播**を試みる。
 
-1. **コピーレフト性質（感染しない）** - 派生作品は同じ人格権尊重ルールを継承しつつ、他ライセンスとの組み合わせも可能
-2. **人格権中心主義** - 著作権の有無ではなく、創作者の人格的寄与と尊厳を保護の基軸とする
-3. **AI協働の明示的承認** - AIとの協働プロセスを前提とし、人間の創作的判断を明確化
-4. **学習データ著作者への敬意** - AI学習に使用された著作物の創作者たちへの配慮を義務化
+| 設計判断 | 非強制との関係 |
+|---|---|
+| 著作者人格権を保護軸に置く | 譲渡も強制もできない権利をあえて選んだ |
+| コピーレフトだが感染しない | 規範は伝えるが、被許諾者の地位を強制しない |
+| 理念先行型 | 拘束ではなく説得で広げる |
+| 倫理観の地域多様性を認める | 普遍性を主張せず、選択肢の一つとして置く |
 
-### 📋 基本原則
+詳細: [docs/design-axis.md](./docs/design-axis.md)
 
-1. **第一原則：創作人格の不可侵性**
-2. **第二原則：人格権継承の義務**
-3. **第三原則：協働プロセスの透明性**
-4. **第四原則：文化的多様性の尊重**
-5. **第五原則：学習データ著作者への敬意**
+中心的な未解決の問いはこれです：
 
-### 📚 ドキュメント構成
+> **強制力を持たずに伝播する規範は、どう設計できるか。**
 
-- **[LICENSE v0.1-PROTOTYPE](./LICENSE-v0.1-PROTOTYPE.md)** - ライセンス条文（日本語原文）
-- **[英語版ライセンス](./translations/en/LICENSE-v0.1-PROTOTYPE.md)** - 英訳版
-- **[理念詳細](./docs/philosophy.md)** - 詳細な理念説明
-- **[透明性記録](./docs/transparency-records/)** - プロジェクトの進化過程
-- **[法的分析](./docs/legal-analysis/)** - 背景となる研究
-- **[実装例](./examples/)** - 各分野での適用例
-- **[貢献ガイド](./CONTRIBUTING.md)** - プロジェクトへの貢献方法
-- **[FAQ](./FAQ.md)** - よくある質問
-- **[既知の課題](./KNOWN_ISSUES.md)** - 現在の制限と議論の呼びかけ 🚨**重要**
-- **[行動規範](./CODE_OF_CONDUCT.md)** - コミュニティガイドライン
-- **[荒らし対策](./ANTI_HARASSMENT_POLICY.md)** - 悪意のある行為への対処方針
-- **[議論ガイド](./DISCUSSIONS.md)** - 参加方法
-- **[翻訳](./translations/)** - 多言語対応
+詳細: [docs/open-questions.md](./docs/open-questions.md)
 
-### 🚀 開発ロードマップ
+### 主要文書
 
-- [x] Phase 0: 概念実証 - 理念確立とプロトタイプ作成
-- [ ] Phase 1: 脆弱性対応 - 既知の課題への対処
-- [ ] Phase 2: コミュニティ参画 - フィードバック収集と議論
-- [ ] Phase 3: 洗練 - 法的精査と改訂
-- [ ] Phase 4: 本格運用 - 実用レベルでの提供
+**思想（このプロジェクトの中身）**
+- [設計の中核軸（非強制）](./docs/design-axis.md) — 2026-08 再検討の核
+- [未解決の設計課題](./docs/open-questions.md) — 解決していないことの明示
+- [ライセンス条文案 v0.1-PROTOTYPE](./LICENSE-v0.1-PROTOTYPE.md) — 初版の条文（既知の弱点を含む）
+- [理念詳細](./docs/philosophy.md) — 初版時点の理念説明
 
-### 🤝 参加方法
+**記録（外部状況と経緯）**
+- [2026年時点の外部環境](./docs/2026-review.md) — landscape 情報。**思想とは分離して管理**
+- [一次資料集](./docs/sources.md) — 上記の裏取りと検証状況
+- [透明性記録](./docs/transparency-records/) — 創世記録（2025-07-05）以降の全経緯
+- [AI協働の開示](./NOTICE-AI-COLLABORATION.md) — 本プロジェクト自体のAI協働記録
 
-このプロジェクトは **理想論** です。脆弱性を認めつつ、理想があるから現実が前進します。
+**参加・運営**
+- [既知の課題（2025-07時点）](./KNOWN_ISSUES.md) / [FAQ](./FAQ.md) / [貢献ガイド](./CONTRIBUTING.md) / [行動規範](./CODE_OF_CONDUCT.md) / [議論ガイド](./DISCUSSIONS.md)
 
-- Issues で具体的な問題提起・改善提案
-- Discussions で理念的な議論・長期的検討
-- Pull Requests で条文の改善提案
+### 沿革
 
-**特に求めているもの：**
-- 法的な問題点の具体的な指摘
-- 実装上の課題の詳細な分析
-- 代替案や改善提案
-- 文化的な観点からの意見
+- **2025-07-05**: 人間創作者と Claude（当時 Claude Sonnet 4）の対話から発足。[創世記録](./docs/transparency-records/2025-07-05-genesis.md)
+- **2025-07-15/16**: 条文案 v0.1-PROTOTYPE、防御的文書群を整備
+- **2026-08-12**: 13ヶ月ぶりの再検討。「採用率を目標にしない」スタンスの確定、非強制軸の明確化、外部環境の記録を追加
+
+### 基本原則（初版から継続）
+
+1. 創作人格の不可侵性
+2. 人格権継承の義務 ※呼称に課題あり — [open-questions.md Q3](./docs/open-questions.md) 参照
+3. 協働プロセスの透明性
+4. 文化的多様性の尊重
+5. 学習データ著作者への敬意
+
+---
+
+<a name="english"></a>
+## 🌍 English
+
+### Project Stance
+
+**Adoption is not the goal.**
+
+This project does not measure success by popularity, buzz, or practical uptake. Its purpose is to quietly leave a record — a document that, years from now, can be pointed to as "someone asked these questions at this moment in time."
+
+We are not seeking advice on "how to get more adoption." We do welcome **intrinsic criticism**: that the ideas are unclear, or internally inconsistent. See the opening of [design-axis.md](./docs/design-axis.md) (Japanese).
+
+### What This Is
+
+ACCRL is a document project on creative ethics in the age of human-AI collaboration, started in July 2025. It centers moral rights (not economic copyright) and articulates respect for the "Invisible Contributors" — the countless creators whose works became AI training data.
+
+The initial version takes the form of a license (v0.1-PROTOTYPE), but it is a proof of concept: posing questions takes priority over legal completeness.
+
+### The Core Design Axis: Non-Coercion
+
+What v0.1 presented as four parallel features all derive from a single axis:
+
+> The spread of a license means placing people who previously held no legal position into the position of *licensee* — one more layer added to the web of rights. ACCRL starts from unease about this structure, and attempts **norm propagation without coercion**.
+
+| Design decision | Relation to non-coercion |
+|---|---|
+| Moral rights as the axis of protection | Deliberately chose rights that cannot be transferred or coerced |
+| Copyleft, but non-viral | Conveys norms without forcing licensee status |
+| Principles before enforcement | Spreads by persuasion, not binding force |
+| Accepts regional diversity of ethics | Claims no universality; offers itself as one option |
+
+The central open question:
+
+> **How can a norm be designed to propagate without coercive force?**
+
+See [docs/design-axis.md](./docs/design-axis.md) and [docs/open-questions.md](./docs/open-questions.md) (Japanese; English translations planned).
+
+### Key Documents
+
+- [LICENSE v0.1-PROTOTYPE](./LICENSE-v0.1-PROTOTYPE.md) (Japanese original) / [English translation](./translations/en/LICENSE-v0.1-PROTOTYPE.md)
+- [Design Axis](./docs/design-axis.md) — the core of the 2026-08 review
+- [Open Questions](./docs/open-questions.md) — what remains unsolved, stated plainly
+- [2026 Landscape Review](./docs/2026-review.md) — external context, kept separate from the project's own reasoning
+- [Sources](./docs/sources.md) — primary-source verification status
+- [Known Issues](./KNOWN_ISSUES.md) / [FAQ](./FAQ.md) / [Contributing](./CONTRIBUTING.md) / [Code of Conduct](./CODE_OF_CONDUCT.md)
+- [AI Collaboration Disclosure](./NOTICE-AI-COLLABORATION.md)
+
+### History
+
+- **2025-07-05**: Started from a dialogue between the human creator and Claude (then Claude Sonnet 4). [Genesis record](./docs/transparency-records/2025-07-05-genesis.md)
+- **2025-07-15/16**: License draft v0.1-PROTOTYPE and supporting documents
+- **2026-08-12**: Review after 13 months — the "adoption is not the goal" stance made explicit, the non-coercion axis articulated, landscape records added
 
 ---
 
 ## 📜 License / ライセンス
 
-This project itself is licensed under ACCRL. See [LICENSE](./LICENSE) for details.
+This project itself is published under ACCRL. See [LICENSE](./LICENSE).
 
-本プロジェクト自体もACCRLの下で公開されています。詳細は[LICENSE](./LICENSE)をご覧ください。
+本プロジェクト自体も ACCRL の下で公開されています。詳細は [LICENSE](./LICENSE) をご覧ください。
 
 ## 📞 Contact / 連絡先
 
-- Human Creator / 人間創作者: [Your Name]
-- Project Management / プロジェクト管理: GitHub Issues/Discussions
+- GitHub Issues / Discussions
 
 ---
 
-**Created through human-AI collaboration with full transparency and mutual respect.**
+*This project is created through human-AI collaboration, with the process disclosed in [NOTICE-AI-COLLABORATION.md](./NOTICE-AI-COLLABORATION.md).*
 
-*人間とAIの協働により、完全な透明性と相互の敬意を持って作成されました。*
+*本プロジェクトは人間とAIの協働により作成されており、その過程は [NOTICE-AI-COLLABORATION.md](./NOTICE-AI-COLLABORATION.md) で開示されています。*

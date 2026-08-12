@@ -35,8 +35,9 @@ AI Collective Creativity Respect License (ACCRL) - AI時代における新しい
 ACCRL/
 ├── LICENSE-v0.1-PROTOTYPE.md  # ライセンス条文案（メインドキュメント）
 ├── LICENSE                    # 自己適用ライセンス
-├── README.md                 # プロジェクト概要（作成済み）
-├── KNOWN_ISSUES.md           # 既知の課題と議論の呼びかけ
+├── README.md                 # プロジェクト概要（入口。短く保つ）
+├── KNOWN_ISSUES.md           # 既知の課題と議論の呼びかけ（2025-07時点）
+├── NOTICE-AI-COLLABORATION.md # AI協働の開示（Assisted-by: との関係含む）
 ├── FAQ.md                    # よくある質問
 ├── CODE_OF_CONDUCT.md        # コミュニティ行動規範
 ├── ANTI_HARASSMENT_POLICY.md # 荒らし対策
@@ -44,7 +45,11 @@ ACCRL/
 ├── CONTRIBUTING.md           # 協働ガイドライン
 ├── CLAUDE.md                 # このファイル
 ├── docs/
-│   ├── philosophy.md         # 詳細理念説明
+│   ├── design-axis.md        # 非強制軸の設計思想（2026-08、思想の核）
+│   ├── open-questions.md     # 未解決の設計課題
+│   ├── 2026-review.md        # 2026年時点の外部環境（思想と分離して管理）
+│   ├── sources.md            # 一次資料リンク集と検証状況
+│   ├── philosophy.md         # 詳細理念説明（初版時点）
 │   ├── legal-analysis/       # 法的分析文書
 │   ├── transparency-records/ # 透明性記録
 │   └── collaboration-disciplines/ # 協働規律
@@ -56,6 +61,15 @@ ACCRL/
 └── .github/
     └── ISSUE_TEMPLATE/       # Issue テンプレート
 ```
+
+### 2026-08 リブート以降の最重要規律
+
+1. **採用率を目標にしない。** 普及・話題性・採用実績を根拠にした助言や価値判断は行わない（docs/design-axis.md §0）
+2. **非強制（Non-Coercion）が設計の中核軸。** 4つの設計判断（人格権軸・非感染・理念先行・地域多様性）は一本の軸の派生であり、個別の欠陥として数えない
+3. **外部環境データ（docs/2026-review.md）は背景資料であり、価値判断の根拠に使わない**
+4. **思想（design-axis）と外部状況（2026-review）は必ず別ファイルで管理する**
+5. **批評は内在的（思想の不明瞭・矛盾の指摘）であるべきで、外形的（使われていない・法的に不利）であってはならない**
+6. **未確認の外部情報はリポジトリに載せない。載せる場合は「未確認」と明記する**（docs/sources.md で検証状況を管理）
 
 ### 3. ライセンス条文作成時の注意点
 
