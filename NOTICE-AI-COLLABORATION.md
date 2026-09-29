@@ -29,7 +29,7 @@ This project is created through human-AI collaboration. This document applies AC
 - **人間創作者の依頼**: 直近のAI・LLM生成コード・感染しないライセンスのあり方を多角的に再調査し、最新版を作成すること
 - **AI協働者**: Claude Code
 - **AIの協働寄与**: 4方向の並行調査と検証水準の明記、v0.2 と周辺文書の内在的な点検、v0.3 草案の起草、思想文書・外部環境文書・FAQ の整合更新、前回記録の誤りの訂正
-- **人間の判断を待つ点**: v0.3 の設計の承認、人格権の不行使宣言の既定、自己適用ライセンスの版の切り替え（[透明性記録](./docs/transparency-records/2026-09-29-v0.3-drafting.md)）
+- **人間創作者の判断（2026-09-29）**: v0.3 の設計を承認。人格権は行使も不行使も約束しない「意図的な沈黙」とし、起草時の不行使宣言を削除。本プロジェクト自身のライセンスを v0.3 に切り替え（[承認の記録](./docs/transparency-records/2026-09-29-v0.3-approval.md)）
 - **成果物**: [LICENSE-v0.3-PROTOTYPE.md](./LICENSE-v0.3-PROTOTYPE.md)、[2026-09-review.md](./docs/2026-09-review.md)、[non-coercive-design-2026.md](./docs/legal-analysis/non-coercive-design-2026.md)
 
 v0.3 の論理では、誓約できるのは人間だけである。本プロジェクトの条文と文書の起草には AI が深く関わっているが、ACCRL を採用し誓約する主体は人間創作者である。

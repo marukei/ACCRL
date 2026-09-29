@@ -19,7 +19,7 @@
 
 ACCRL は、AI協働時代の創作倫理に関する文書プロジェクトです。著作権（経済的権利）ではなく著作者人格権を軸に、AI学習データに含まれる無数の創作者——「見えない貢献者」——への敬意を明文化する試みとして、2025年7月に始まりました。
 
-ACCRL は「ライセンス」の形をとっていますが、現行の条文は草案（v0.3-PROTOTYPE）であり、法的完成度より問いの提示を優先しています。
+ACCRL は「ライセンス」の形をとっていますが、現行の条文（v0.3-PROTOTYPE）はプロトタイプであり、法的完成度より問いの提示を優先しています。
 
 ### 設計の中核軸：非強制（Non-Coercion）
 
@@ -47,7 +47,7 @@ ACCRL は「ライセンス」の形をとっていますが、現行の条文�
 **思想（このプロジェクトの中身）**
 - [設計の中核軸（非強制）](./docs/design-axis.md) — 2026-08 再検討の核
 - [未解決の設計課題](./docs/open-questions.md) — 解決していないことの明示
-- [条文草案 v0.3-PROTOTYPE](./LICENSE-v0.3-PROTOTYPE.md) — **現行草案**。第I部（採用者の許諾と約束）と第II部（誓約と呼びかけ）の二部構成
+- [条文 v0.3-PROTOTYPE](./LICENSE-v0.3-PROTOTYPE.md) — **現行版**（2026-09-29 承認）。第I部（採用者の許諾と約束）と第II部（誓約と呼びかけ）の二部構成
 - [条文 v0.2-PROTOTYPE](./LICENSE-v0.2-PROTOTYPE.md) / [v0.1-PROTOTYPE](./LICENSE-v0.1-PROTOTYPE.md) — 過去の版（歴史的記録として凍結）
 - [非強制の設計分析](./docs/legal-analysis/non-coercive-design-2026.md) — v0.2 への内在的批判と v0.3 の応答
 - [理念詳細](./docs/philosophy.md) — 初版時点の理念説明
@@ -66,7 +66,7 @@ ACCRL は「ライセンス」の形をとっていますが、現行の条文�
 - **2025-07-05**: 人間創作者と Claude（当時 Claude Sonnet 4）の対話から発足。[創世記録](./docs/transparency-records/2025-07-05-genesis.md)
 - **2025-07-15/16**: 条文案 v0.1-PROTOTYPE、防御的文書群を整備
 - **2026-08-12**: 13ヶ月ぶりの再検討。「採用率を目標にしない」スタンスの確定、非強制軸の明確化、外部環境の記録を追加。「器はライセンス、実態は誓約」を決定し、v0.2 草案を起草（[決定の記録](./docs/transparency-records/2026-08-12-vessel-decision.md)）
-- **2026-09-29**: 再調査と v0.2 への内在的批判を経て v0.3 草案を起草。「法的に拘束されるのは採用者だけ」「規範は著作権に依存しない」を明文化（[起草の記録](./docs/transparency-records/2026-09-29-v0.3-drafting.md)）
+- **2026-09-29**: 再調査と v0.2 への内在的批判を経て v0.3 を起草。「法的に拘束されるのは採用者だけ」「規範は著作権に依存しない」を明文化（[起草の記録](./docs/transparency-records/2026-09-29-v0.3-drafting.md)）。同日承認し、人格権は行使も不行使も約束しない「意図的な沈黙」とした。本プロジェクト自身も v0.3 に切り替え（[承認の記録](./docs/transparency-records/2026-09-29-v0.3-approval.md)）
 
 ### 基本原則（初版から継続、第二原則は2026-08に改称）
 
@@ -104,7 +104,7 @@ We are not seeking advice on "how to get more adoption." We do welcome **intrins
 
 ACCRL is a document project on creative ethics in the age of human-AI collaboration, started in July 2025. It centers moral rights (not economic copyright) and articulates respect for the "Invisible Contributors" — the countless creators whose works became AI training data.
 
-It takes the form of a license; the current text is a draft (v0.3-PROTOTYPE) in which posing questions takes priority over legal completeness.
+It takes the form of a license; the current text (v0.3-PROTOTYPE) is a prototype in which posing questions takes priority over legal completeness.
 
 In v0.3, the design reduces to two sentences: **the only person legally bound is the adopter** (users bear no legal obligations), and **the norm does not depend on copyright** (the pledge reaches parts, such as LLM-generated code, in which no copyright subsists).
 
@@ -129,7 +129,7 @@ See [docs/design-axis.md](./docs/design-axis.md) and [docs/open-questions.md](./
 
 ### Key Documents
 
-- [LICENSE v0.3-PROTOTYPE draft](./LICENSE-v0.3-PROTOTYPE.md) — **current draft**: "a license in form, a covenant in substance" (Japanese; English translation planned)
+- [LICENSE v0.3-PROTOTYPE](./LICENSE-v0.3-PROTOTYPE.md) — **current version** (approved 2026-09-29): "a license in form, a covenant in substance" (Japanese; English translation planned)
 - [v0.2](./LICENSE-v0.2-PROTOTYPE.md) / [v0.1](./LICENSE-v0.1-PROTOTYPE.md) — frozen as historical records ([v0.1 English translation](./translations/en/LICENSE-v0.1-PROTOTYPE.md))
 - [Design Axis](./docs/design-axis.md) — the core of the 2026-08 review
 - [Open Questions](./docs/open-questions.md) — what remains unsolved, stated plainly
@@ -143,15 +143,15 @@ See [docs/design-axis.md](./docs/design-axis.md) and [docs/open-questions.md](./
 - **2025-07-05**: Started from a dialogue between the human creator and Claude (then Claude Sonnet 4). [Genesis record](./docs/transparency-records/2025-07-05-genesis.md)
 - **2025-07-15/16**: License draft v0.1-PROTOTYPE and supporting documents
 - **2026-08-12**: Review after 13 months — the "adoption is not the goal" stance made explicit, the non-coercion axis articulated, landscape records added. Decided "a license in form, a covenant in substance" and drafted v0.2
-- **2026-09-29**: After renewed research and intrinsic critique of v0.2, drafted v0.3
+- **2026-09-29**: After renewed research and intrinsic critique of v0.2, drafted and approved v0.3; this project itself moved to v0.3
 
 ---
 
 ## 📜 License / ライセンス
 
-This project itself is published under ACCRL. See [LICENSE](./LICENSE).
+This project itself is published under ACCRL v0.3-PROTOTYPE, and its human creator makes the pledge. See [LICENSE](./LICENSE).
 
-本プロジェクト自体も ACCRL の下で公開されています。詳細は [LICENSE](./LICENSE) をご覧ください。
+本プロジェクト自体も ACCRL v0.3-PROTOTYPE の下で公開し、人間創作者がその誓約を行っています（2026-09-29 に v0.1 から切り替え）。詳細は [LICENSE](./LICENSE) をご覧ください。
 
 ## 📞 Contact / 連絡先
 

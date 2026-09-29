@@ -1,56 +1,102 @@
 AI Collective Creativity Respect License (ACCRL)
-Version 0.1-PROTOTYPE
+Version 0.3-PROTOTYPE
+
+SPDX-License-Identifier: LicenseRef-ACCRL-0.3
 
 本プロジェクト（AI Collective Creativity Respect License の開発プロジェクト）は、
-AI Collective Creativity Respect License (ACCRL) Version 0.1-PROTOTYPE の下で公開されています。
+AI Collective Creativity Respect License (ACCRL) v0.3-PROTOTYPE の下で公開し、その誓約を行います。
 
-これは自己言及的な適用ですが、本ライセンスが提唱する理念を自ら実践する重要な例となります。
+This project is published under the AI Collective Creativity Respect License (ACCRL)
+v0.3-PROTOTYPE, and we make its pledge.
 
-⚠️ 重要な注意事項
-このライセンスは概念実証レベルのプロトタイプです。
-既知の脆弱性については KNOWN_ISSUES.md をご確認ください。
+条文 / License text: LICENSE-v0.3-PROTOTYPE.md
 
-## プロジェクト情報
+これは自己言及的な適用です。本ライセンスが提唱する理念を、本プロジェクト自身が実践します。
 
-創作者: [人間創作者名]
-AI協働者: Claude (Anthropic)
+⚠️ 本ライセンスは PROTOTYPE です。未解決の課題は docs/open-questions.md に明示しています。
+
+
+## 採用者
+
+採用者・創作者: [人間創作者名]
+適用: 2026年9月29日（v0.1-PROTOTYPE から切り替え）
+
+2025年7月5日から2026年9月29日までは、本プロジェクトは v0.1-PROTOTYPE の下で
+公開されていました。採用者は、その期間に公開したものを含む本プロジェクトの全体を、
+v0.3-PROTOTYPE の下でも提供します。
+
+
+## 採用者の誓約（第6条）
+
+本プロジェクトの人間創作者である私は、次のことを誓います。
+
+1. 協働の透明性
+   本プロジェクトの創作にAIが関わった事実と、人間の創作的判断を明らかにします。
+   透明性レベル4（対話と判断の経緯を docs/transparency-records/ に公開）で行います。
+
+2. 見えない貢献者への敬意
+   本プロジェクトの条文と文書は、AI協働者の能力を通じて、その学習データとなった
+   法律文書、ライセンス文書、学術論文の執筆者の方々の知恵の上に成り立っています。
+   特に、既存のオープンソースライセンスや規範文書を作成・改良してこられた
+   すべての方々に、深く感謝します。
+
+3. 他者の創作的人格の尊重
+   私たちが他者の著作物を用いるとき、本プロジェクトについて呼びかけるのと
+   同じ敬意を払います。
+
+4. 強制しないこと
+   本ライセンスを強制の道具として用いません。
+
+この誓約は人間創作者が行うものです。AI協働者（Claude）は誓約を行いません。
+誓約できるのは人間だけだからです（v0.3 第1条4号）。
+
+
+## AI協働の開示（第10条）
+
+AI協働者: Claude（Anthropic）— チャットでの対話、および Claude Code
 協働開始: 2025年7月5日
-透明性レベル: 4（完全な透明性記録を docs/transparency-records/ にて公開）
 
-## AI協働の開示
-
-本ライセンスは、人間の創作者とAI（Claude）との協働により開発されました。
 - 根本理念と価値判断: 人間
-- 文書の体系化と整理: AI協働
-- 法的概念の分析: 人間とAIの協働
+- 設計上の決定（「器はライセンス、実態は誓約」、人格権の意図的な沈黙、本ライセンスの採用）: 人間
+- 調査、文書の体系化と起草: AI協働
 - 最終的な判断: すべて人間
 
-## 見えない貢献者への謝辞
+詳細は NOTICE-AI-COLLABORATION.md を参照してください。
+本リポジトリのコミットには、AIの支援を受けたことを示すトレーラ
+（Assisted-by: / Co-Authored-By:）を付しています。
 
-本ライセンスの開発にあたり、Claudeの学習データとなったすべての法律文書、
-ライセンス文書、学術論文の執筆者の方々に深く感謝いたします。
-特に、既存のオープンソースライセンスを作成・改良してこられた
-すべての方々の知恵が、このライセンスの基礎となっています。
 
-## AI学習への利用について
+## AI学習について（第2.2条・第9条）
 
-本プロジェクトのすべての文書は、ACCRLの理念に賛同する限りにおいて、
-AIシステムの学習に利用することができます。
-その際は、本プロジェクトが人間とAIの協働により作成されたことを明記し、
-見えない貢献者への敬意を表明することを推奨します。
+本プロジェクトは、第2.2条のAI学習の留保を付しません。
+本プロジェクトの文書は、AI学習を含むあらゆる目的で利用できます。
+
+学習に用いる方には、見えない貢献者への敬意という本ライセンスの理念を受け止めること、
+可能な範囲で学習に用いたことを明らかにすること、学習データの来歴とライセンス情報を
+保持することを呼びかけます。これは呼びかけであって、条件ではありません。
+
+
+## 著作者人格権（第5条）
+
+本ライセンスは、著作者人格権を許諾も放棄もしません。
+また、採用者が人格権を行使しないことも、行使することも約束しません（意図的な沈黙）。
+
 
 ## 透明性記録
 
-本プロジェクトの進化プロセスは以下で確認できます：
 - 創世記録: docs/transparency-records/2025-07-05-genesis.md
 - 改善議論: docs/transparency-records/2025-07-15-improvements.md
 - 防御的構造: docs/transparency-records/2025-07-15-defensive-structure.md
 - 謙虚なリポジショニング: docs/transparency-records/2025-07-16-humility-repositioning.md
 - 最終準備作業: docs/transparency-records/2025-07-16-final-preparations.md
+- 13ヶ月ぶりのリブート: docs/transparency-records/2026-08-12-reboot.md
+- 器と呼称の決定: docs/transparency-records/2026-08-12-vessel-decision.md
+- v0.3 の起草: docs/transparency-records/2026-09-29-v0.3-drafting.md
+- v0.3 の承認と採用: docs/transparency-records/2026-09-29-v0.3-approval.md
 
 ---
 
-詳細なライセンス条項については LICENSE-v0.1-PROTOTYPE.md を参照してください。
+過去の条文（v0.1-PROTOTYPE、v0.2-PROTOTYPE）は歴史的記録として凍結保存されています。
 
-*Created through human-AI collaboration with full transparency and mutual respect.*
-*人間とAIの協働により、完全な透明性と相互の敬意を持って作成されました。*
+*人間とAIの協働により作成され、人間創作者が採用し、誓約しました。*
+*Created through human-AI collaboration; adopted and pledged by the human creator.*

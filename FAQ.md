@@ -36,7 +36,7 @@ A: ライセンスと宣言することで、利用者に「この作品には�
 
 **Q: 著作者人格権はどうなりますか？**
 
-A: 放棄も譲渡もされず、創作者のもとに残ります。ACCRL は人格権を「人を守る盾」として残し、第II部の誓約を強制する手段としては使いません。ただし、法律が人格権として保護する範囲（氏名表示、同一性保持、名誉声望）では、誓約の一部が法律上の義務と重なります。重なった部分で働くのは ACCRL ではなく法律です（v0.3 第5条）。改変の許諾を実質的なものにしたい採用者は、任意の不行使宣言（付録B）を付すことができます。
+A: 放棄も譲渡もされず、創作者のもとに残ります。ACCRL は人格権を根拠に新たな条件や義務を作りません。そのうえで、採用者が人格権を行使しないことも、行使することも約束しません。これは意図的な沈黙です。不行使を宣言すれば創作者が盾を手放す危険を負い、行使を明言すれば利用者を萎縮させるからです。人格権は法律の問題であり、その扱いは法律と個々の状況に委ねられます（v0.3 第5条）。
 
 **Q: 誓約に従わない利用があったらどうなりますか？**
 
@@ -128,7 +128,7 @@ A: Declaring it a license makes users aware that the work carries norms. Coerciv
 
 **Q: What happens to moral rights?**
 
-A: They are neither waived nor transferred; they remain with the creator as a shield. ACCRL does not use them to enforce the pledge. Where the law protects moral rights (attribution, integrity, honor), parts of the pledge overlap with legal duties — in that overlap, it is the law that operates, not ACCRL. An adopter may attach an optional non-assertion declaration (Appendix B).
+A: They are neither waived nor transferred; they remain with the creator. ACCRL creates no conditions or obligations on the basis of moral rights. It also deliberately stays silent: the adopter promises neither to assert nor not to assert them. Declaring non-assertion would risk giving up the shield; declaring assertion would chill users. Moral rights are a matter of law, left to the law and to each situation (v0.3 Art. 5).
 
 **Q: What if someone does not follow the pledge?**
 
