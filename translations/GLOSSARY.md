@@ -19,7 +19,16 @@
 | 応じる（呼びかけに） | **respond to** | 暫定 | **accept は用いない。** invitation → accept は英米法の申込と承諾（契約の成立）を連想させる |
 | 触れる人 | **those who come into contact with the Work** | 暫定 | 「利用者」の定義（第1条5号）と対応する |
 | 表明（する） | **declare** / **declaration** | 暫定 | |
-| 強制 / 非強制 | **coercion** / **non-coercion** | 暫定・**要判断** | 設計軸の標語（[design-axis.md](../docs/design-axis.md)）に合わせた。査読では、第3条の実際の内容は「執行しない」ことなので、条文中は enforce / enforcement のほうが法的に正確という異論があった。標語は残し、第3条の見出し（Undertaking Not to Coerce）等だけを変えるかどうかは人間創作者の判断を要する |
+| 強制 / 非強制 | 用法で訳し分ける（下記） | **確定**（2026-09-29 人間創作者の判断「正確性を期しましょう」）| 査読で、第3条の実際の内容は「執行しない」ことであり、coerce（威圧・強迫）では法的に不正確という指摘があった |
+
+**「強制」の訳し分け**
+
+| 用法 | 訳語 | 該当箇所 |
+|---|---|---|
+| 設計軸・規範としての姿勢（強制によらずに／非強制の軸） | **coercion** / **non-coercion** | 性格4、前文、第5.2条、付録Bの「非強制」 |
+| 本ライセンスの法的な働き（執行しない約束、新たな強制を作らない、強制の道具にならない） | **enforcement** / **enforce** | 性格2、第2.2条1項、第3条（見出し **Undertaking Not to Enforce**）、第11条4項、付録Bの v0.2 の引用と「禁止」の語彙 |
+| 第II部の誓約「本ライセンスを強制の道具として用いない」 | **coercion** | 第6条4号。第II部の規範であり、法的な執行に限らず、あらゆる強制を用いない誓いであるため、広い語を残す |
+| 強制力・強制可能な | **enforceability** / **enforceable** | 性格1、付録B |
 | 器はライセンス、実態は誓約 | **A license in form, a pledge in substance** | 暫定 | 「形式と実質（form and substance）」の対比は英語の法的議論で定着した言い回しで、器／実態の対応をそのまま運べる |
 | 呼びかけ（第7条〜第9条） | **invitation** / 動詞 **we invite … to** | 暫定 | 応じるかどうかが各人の自由であることを語の中に保つ。request や call upon は応じる義務を含意しうる |
 | 意図的な沈黙 | **Intentional Silence** | 暫定 | 第5.2条の見出し。deliberate silence も可だが、条文の「意図して沈黙する」に合わせた |
@@ -60,7 +69,7 @@
 | 一身専属 | **personal to the author and inalienable** | 暫定 | 一語の定訳がないため、性質を述べる |
 | 氏名表示 | **attribution** | 暫定 | 権利名としては right of attribution |
 | 同一性保持 | **integrity** | 暫定 | 権利名としては right of integrity |
-| 名誉声望 | **honor or reputation** | 暫定 | ベルヌ条約6条の2の英文に合わせた |
+| 名誉声望 | **honour or reputation** | 暫定 | ベルヌ条約6条の2の英文（honor or reputation）の語を、英国英語の表記で用いた |
 | 準拠法 | **governing law** | 確定 | |
 | 分離可能性 | **severability** | 確定 | |
 | 保証の否認と責任の制限 | **disclaimer of warranty and limitation of liability** | 確定 | |
@@ -79,6 +88,23 @@ v0.3 の核心は「法的に拘束されるのは採用者だけ」である。
 | 呼びかけの項目 | 導入文をコロンで終え、項目は助動詞を含まない不定詞（"To state …"）で並べる。項目が独立した指示に見えないようにするため |
 | 三人称の単純現在 | 利用者や「当事者」を主語にした単純現在（"The parties try to …"）は、平易な法文では義務規定の標準形として読まれるため避ける。**the parties も用いない**（契約当事者の定型語）|
 | 禁止形 | "is not to be …" は英語の法文で must not に相当するため、呼びかけやその要約に用いない |
+
+### 英国英語（2026-09-29 人間創作者の判断）
+
+英語は**英国英語の表記を優先する**。
+
+| 項目 | 方針 | 例 |
+|---|---|---|
+| licence / license | **名詞は licence、動詞は license**。ただし正式名称 "AI Collective Creativity Respect License" と、その略称として文書そのものを指す **"this License"** は固有名詞として License のまま。licensee は英米共通 | "grants … a licence"、"a perfectly good licence"、"licence information"、"under any licence" |
+| -our | honour, behaviour, favour | honour or reputation |
+| -ise | recognise, organisation, standardised, authorise | |
+| judgement | 一般の「判断」は judgement（裁判所の判決を指す judgment はこの文書に出てこない）| creative judgements |
+| 日付 | 日・月・年 | 29 September 2026 |
+| 引用符 | 二重引用符を用いる（英国の法令も二重引用符）。句読点は引用の外に置く（logical punctuation） | called "undertakings", and … |
+| 列挙のカンマ | 最後の and / or の前のカンマ（Oxford comma）は、曖昧さが生じない限り置かない | declare, record and convey |
+| e.g. / i.e. | 後にカンマを置かない | e.g. robots.txt |
+
+凍結された v0.1 の英訳には適用しない。
 
 ### 表記
 

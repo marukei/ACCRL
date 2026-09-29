@@ -96,15 +96,15 @@ v0.3 では、これを次の二文に整理した（[design-axis.md §4・§5](
 
 **Adoption is not the goal.**
 
-This project does not measure success by popularity, buzz, or practical uptake. Its purpose is to quietly leave a record — a document that, years from now, can be pointed to as "someone asked these questions at this moment in time."
+This project does not measure success by popularity, buzz or practical uptake. Its purpose is to quietly leave a record — a document that, years from now, can be pointed to as "someone asked these questions at this moment in time".
 
-We are not seeking advice on "how to get more adoption." We do welcome **intrinsic criticism**: that the ideas are unclear, or internally inconsistent. See the opening of [design-axis.md](./docs/design-axis.md) (Japanese).
+We are not seeking advice on "how to get more adoption". We do welcome **intrinsic criticism**: that the ideas are unclear, or internally inconsistent. See the opening of [design-axis.md](./docs/design-axis.md) (Japanese).
 
 ### What This Is
 
 ACCRL is a document project on creative ethics in the age of human-AI collaboration, started in July 2025. It centers moral rights (not economic copyright) and articulates respect for the "Invisible Contributors" — the countless creators whose works became AI training data.
 
-It takes the form of a license; the current text (v0.3-PROTOTYPE) is a prototype in which posing questions takes priority over legal completeness.
+It takes the form of a licence; the current text (v0.3-PROTOTYPE) is a prototype in which posing questions takes priority over legal completeness.
 
 In v0.3, the design reduces to two sentences: **the only person legally bound is the adopter** (users bear no legal obligations), and **the norm does not depend on copyright** (the pledge reaches parts, such as LLM-generated code, in which no copyright subsists).
 
@@ -129,9 +129,9 @@ See [docs/design-axis.md](./docs/design-axis.md) and [docs/open-questions.md](./
 
 ### Key Documents
 
-- [LICENSE v0.3-PROTOTYPE](./LICENSE-v0.3-PROTOTYPE.md) — **current version** (approved 2026-09-29): "a license in form, a pledge in substance" ([English translation](./translations/en/LICENSE-v0.3-PROTOTYPE.md), draft; the Japanese text is the original)
+- [LICENSE v0.3-PROTOTYPE](./LICENSE-v0.3-PROTOTYPE.md) — **current version** (approved 29 September 2026): "a licence in form, a pledge in substance" ([English translation](./translations/en/LICENSE-v0.3-PROTOTYPE.md), draft; the Japanese text is the original)
 - [v0.2](./LICENSE-v0.2-PROTOTYPE.md) / [v0.1](./LICENSE-v0.1-PROTOTYPE.md) — frozen as historical records ([v0.1 English translation](./translations/en/LICENSE-v0.1-PROTOTYPE.md))
-- [Design Axis](./docs/design-axis.md) — the core of the 2026-08 review
+- [Design Axis](./docs/design-axis.md) — the core of the August 2026 review
 - [Open Questions](./docs/open-questions.md) — what remains unsolved, stated plainly
 - [2026 Landscape Review](./docs/2026-review.md) — external context, kept separate from the project's own reasoning
 - [Sources](./docs/sources.md) — primary-source verification status
@@ -140,14 +140,14 @@ See [docs/design-axis.md](./docs/design-axis.md) and [docs/open-questions.md](./
 
 ### History
 
-- **2025-07-05**: Started from a dialogue between the human creator and Claude (then Claude Sonnet 4). [Genesis record](./docs/transparency-records/2025-07-05-genesis.md)
-- **2025-07-15/16**: License draft v0.1-PROTOTYPE and supporting documents
-- **2026-08-12**: Review after 13 months — the "adoption is not the goal" stance made explicit, the non-coercion axis articulated, landscape records added. Decided "a license in form, a covenant in substance" and drafted v0.2
-- **2026-09-29**: After renewed research and intrinsic critique of v0.2, drafted and approved v0.3; this project itself moved to v0.3
+- **5 July 2025**: Started from a dialogue between the human creator and Claude (then Claude Sonnet 4). [Genesis record](./docs/transparency-records/2025-07-05-genesis.md)
+- **15/16 July 2025**: Licence draft v0.1-PROTOTYPE and supporting documents
+- **12 August 2026**: Review after 13 months — the "adoption is not the goal" stance made explicit, the non-coercion axis articulated, landscape records added. Decided "a licence in form, a covenant in substance" and drafted v0.2
+- **29 September 2026**: After renewed research and intrinsic critique of v0.2, drafted and approved v0.3; this project itself moved to v0.3
 
 ---
 
-## 📜 License / ライセンス
+## 📜 Licence / ライセンス
 
 This project itself is published under ACCRL v0.3-PROTOTYPE, and its human creator makes the pledge. See [LICENSE](./LICENSE).
 

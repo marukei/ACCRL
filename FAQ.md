@@ -105,11 +105,11 @@ A: 「思想が不明瞭だ」「内部で矛盾している」という内在�
 
 **Q: What is the goal? Adoption?**
 
-A: No. The goal is to leave a record — a document that, years from now, can be pointed to as "someone asked these questions at this moment." Adoption and attention are not measures of success ([design-axis.md](./docs/design-axis.md) §0, Japanese).
+A: No. The goal is to leave a record — a document that, years from now, can be pointed to as "someone asked these questions at this moment". Adoption and attention are not measures of success ([design-axis.md](./docs/design-axis.md) §0, Japanese).
 
-**Q: Why not just use MIT, GPL, or Creative Commons?**
+**Q: Why not just use MIT, GPL or Creative Commons?**
 
-A: Existing licenses rest on copyright. Where a work contains parts in which no copyright subsists — such as LLM-generated code — a license has nothing to grant there. ACCRL's Part II (the pledge) is a norm that does not depend on copyright, so it reaches those parts as a norm. ACCRL does not replace other licenses; it covers ground they do not.
+A: Existing licences rest on copyright. Where a work contains parts in which no copyright subsists — such as LLM-generated code — a licence has nothing to grant there. ACCRL's Part II (the pledge) is a norm that does not depend on copyright, so it reaches those parts as a norm. ACCRL does not replace other licences; it covers ground they do not.
 
 ### Legal nature
 
@@ -122,9 +122,9 @@ A: Not against users. That is by design.
 
 The only person legally bound by ACCRL is the one who chose to adopt it.
 
-**Q: Why call it a "license" if it has no coercive force?**
+**Q: Why call it a "licence" if it has no coercive force?**
 
-A: Declaring it a license makes users aware that the work carries norms. Coercive force is not a requirement for being a license. ACCRL is "a license in form, a pledge in substance."
+A: Declaring it a licence makes users aware that the work carries norms. Coercive force is not a requirement for being a licence. ACCRL is "a licence in form, a pledge in substance".
 
 **Q: What happens to moral rights?**
 
@@ -162,7 +162,7 @@ The act of adopting is itself the pledge. See [v0.3 Appendix A](./LICENSE-v0.3-P
 
 **Q: Must derivatives also use ACCRL?**
 
-A: No. ACCRL invites you to carry forward respect — attribution and notice of the pledge — not the license.
+A: No. ACCRL invites you to carry forward respect — attribution and notice of the pledge — not the licence.
 
 **Q: Isn't this Japan-centric?**
 
