@@ -2,7 +2,7 @@
 
 ## 概要
 
-ACCRL（Autonomous Continuous Collaborative Reasoning Loop）における協働規律は、人間とAI、そして異なるAIシステム間の効果的な協働を実現するための行動指針とプロトコルです。
+ACCRL（AI Collective Creativity Respect License）の開発における協働規律は、人間とAI、そして異なるAIシステム間の効果的な協働を実現するための行動指針とプロトコルです。
 
 ## 協働規律の目的
 
@@ -69,9 +69,9 @@ ACCRL（Autonomous Continuous Collaborative Reasoning Loop）における協働�
 
 ## 関連リソース
 
-- [ACCRL概要](/docs/accrl-overview.md)
-- [システムアーキテクチャ](/docs/system-architecture.md)
-- [実装ガイドライン](/docs/implementation-guide.md)
+- [ACCRL概要](../../README.md)
+- [設計の軸](../design-axis.md)
+- [適用例](../../examples/)
 
 ---
 最終更新: 2025年7月16日  
