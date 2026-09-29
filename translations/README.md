@@ -13,6 +13,8 @@ AI Collective Creativity Respect License (ACCRL) の国際的な普及のため�
 
 ### 2. 重要概念の扱い
 
+> **v0.3 の訳語は [GLOSSARY.md](./GLOSSARY.md) を正とする。** 以下の表と「日英対照表」は v0.1 期のものである。v0.3 では概念が改められたため、訳語が異なるものがある（例：継承 = Inheritance → Carry Respect Forward、派生著作物 = Derivative Work → Derivative、誓約は covenant ではなく pledge）。
+
 | 日本語 | 英語 | 説明 |
 |--------|------|------|
 | 著作者人格権 | Moral Rights / Creator's Moral Rights | 法域により異なる概念 |
@@ -54,7 +56,8 @@ AI Collective Creativity Respect License (ACCRL) の国際的な普及のため�
 
 | 言語 | 状態 | 主要翻訳者 | レビュー状況 |
 |------|------|-----------|-------------|
-| 英語 | 初稿完成 | AI協働 | レビュー待ち |
+| 英語（v0.3） | 初稿完成（2026-09-29） | AI協働 | AIによる査読済み・人間の確認待ち |
+| 英語（v0.1） | 凍結（v0.1 とともに） | AI協働 | - |
 | 中国語(簡体字) | 未着手 | - | - |
 | 中国語(繁体字) | 未着手 | - | - |
 | 韓国語 | 未着手 | - | - |
@@ -67,11 +70,12 @@ AI Collective Creativity Respect License (ACCRL) の国際的な普及のため�
 ```
 translations/
 ├── README.md (このファイル)
-├── GLOSSARY.md (用語集)
+├── GLOSSARY.md (用語集。v0.3 の日英)
 ├── en/
-│   ├── LICENSE-v0.1-PROTOTYPE.md
-│   ├── README.md
-│   └── philosophy.md
+│   ├── LICENSE-v0.3-PROTOTYPE.md (現行版の英訳)
+│   ├── LICENSE-v0.1-PROTOTYPE.md (凍結)
+│   ├── README.md (予定)
+│   └── philosophy.md (予定)
 ├── zh-CN/
 ├── zh-TW/
 ├── ko/

@@ -117,14 +117,14 @@ A: Existing licenses rest on copyright. Where a work contains parts in which no 
 
 A: Not against users. That is by design.
 
-- **Part I (grant and promises)** is legally operative, but it binds only the adopter — the person who applied ACCRL to their own work. The adopter promises an irrevocable grant and not to sue on the basis of the pledge.
+- **Part I (grant and undertakings)** is legally operative, but it binds only the adopter — the person who applied ACCRL to their own work. The adopter makes an irrevocable grant and undertakes not to take legal action on the basis of the pledge.
 - **Part II (pledge and invitation)** is not a contract and imposes no legal obligation on anyone.
 
 The only person legally bound by ACCRL is the one who chose to adopt it.
 
 **Q: Why call it a "license" if it has no coercive force?**
 
-A: Declaring it a license makes users aware that the work carries norms. Coercive force is not a requirement for being a license. ACCRL is "a license in form, a covenant in substance."
+A: Declaring it a license makes users aware that the work carries norms. Coercive force is not a requirement for being a license. ACCRL is "a license in form, a pledge in substance."
 
 **Q: What happens to moral rights?**
 

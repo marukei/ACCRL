@@ -129,7 +129,7 @@ See [docs/design-axis.md](./docs/design-axis.md) and [docs/open-questions.md](./
 
 ### Key Documents
 
-- [LICENSE v0.3-PROTOTYPE](./LICENSE-v0.3-PROTOTYPE.md) — **current version** (approved 2026-09-29): "a license in form, a covenant in substance" (Japanese; English translation planned)
+- [LICENSE v0.3-PROTOTYPE](./LICENSE-v0.3-PROTOTYPE.md) — **current version** (approved 2026-09-29): "a license in form, a pledge in substance" ([English translation](./translations/en/LICENSE-v0.3-PROTOTYPE.md), draft; the Japanese text is the original)
 - [v0.2](./LICENSE-v0.2-PROTOTYPE.md) / [v0.1](./LICENSE-v0.1-PROTOTYPE.md) — frozen as historical records ([v0.1 English translation](./translations/en/LICENSE-v0.1-PROTOTYPE.md))
 - [Design Axis](./docs/design-axis.md) — the core of the 2026-08 review
 - [Open Questions](./docs/open-questions.md) — what remains unsolved, stated plainly

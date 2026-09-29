@@ -32,6 +32,12 @@ This project is created through human-AI collaboration. This document applies AC
 - **人間創作者の判断（2026-09-29）**: v0.3 の設計を承認。人格権は行使も不行使も約束しない「意図的な沈黙」とし、起草時の不行使宣言を削除。本プロジェクト自身のライセンスを v0.3 に切り替え（[承認の記録](./docs/transparency-records/2026-09-29-v0.3-approval.md)）
 - **成果物**: [LICENSE-v0.3-PROTOTYPE.md](./LICENSE-v0.3-PROTOTYPE.md)、[2026-09-review.md](./docs/2026-09-review.md)、[non-coercive-design-2026.md](./docs/legal-analysis/non-coercive-design-2026.md)
 
+### 自己署名と英訳の開始（2026-09-29、ローカル環境）
+
+- **人間創作者の判断**: 本プロジェクトの `LICENSE` に GitHub アカウント名（marukei）で署名する。v0.3 の英訳を開始し、サブエージェントの合議で進める
+- **AI協働者**: Claude Code（Opus 5.5、司令塔：用語集の起草と統合）、サブエージェント（Sonnet 5.5：下訳と忠実性の査読、Fable 5.1：英語圏での法的な読まれ方の査読）
+- **成果物**: [英訳](./translations/en/LICENSE-v0.3-PROTOTYPE.md)（草稿、人間の確認待ち）、[用語集](./translations/GLOSSARY.md)（[記録](./docs/transparency-records/2026-09-29-signing-and-translation.md)）
+
 v0.3 の論理では、誓約できるのは人間だけである。本プロジェクトの条文と文書の起草には AI が深く関わっているが、ACCRL を採用し誓約する主体は人間創作者である。
 
 なお、2026-08 のレビューセッションでは、AI側が「採用率」という本プロジェクトが採らない物差しを無断で持ち込み、非強制の設計を欠陥として数えるという誤りを犯した。人間創作者がこれを指摘・訂正した経緯も含めて、協働の記録である。誤りの内容は引き継ぎ文書に記録され、以後の協働の規律とした。
