@@ -8,6 +8,10 @@ Version 0.2-PROTOTYPE 草案（2026年8月12日）
 > 設計軸に基づいて新規に起草されました。
 > 未解決の課題は [docs/open-questions.md](./docs/open-questions.md) に明示しています。
 
+> **2026-09-29 追記**: 本版は歴史的記録として凍結し、以後改変しません。
+> 本版に対する内在的批判（誓約の主体の不在、「covenant」の語義の二重性、人格権と非強制の混同等）を
+> 踏まえた後継草案は [LICENSE-v0.3-PROTOTYPE.md](./LICENSE-v0.3-PROTOTYPE.md) を参照してください。
+
 ## 本ライセンスの性格 —— 器はライセンス、実態は誓約
 
 本文書は "License" を名乗るが、その実態は誓約（Covenant）である。

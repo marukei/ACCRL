@@ -71,7 +71,7 @@
 ### Linux Kernel — 検証: ✅ **直接確認**（ファイル本体・コミット履歴を取得）
 
 - `Documentation/process/coding-assistants.rst`。初版コミット 78d979db6cef（2026-01-06、作者 Sasha Levin、コミッタ Jonathan Corbet）、Linux 7.0 で正式収録
-- トレーラ形式: `Assisted-by: AGENT_NAME:MODEL_VERSION [TOOL1] [TOOL2]`
+- トレーラ形式: `Assisted-by: AGENT_NAME:MODEL_VERSION [TOOL1] [TOOL2]`（〔2026-09 訂正〕v7.3-rc1 以降は `Assisted-by: LLM [TOOL1] [TOOL2]`。下記「2026-09 追補」参照）
 - 原文: "AI agents MUST NOT add Signed-off-by tags. Only humans can legally certify the Developer Certificate of Origin (DCO)."
 - 一次資料:
   - https://docs.kernel.org/process/coding-assistants.html
@@ -164,3 +164,88 @@
 ---
 
 *本文書は Claude Code による並行調査（2026-08-12）の結果を人間創作者の確認用に整理したものである。間接確認の項目は、公開環境からの最終アクセス確認を経てから確定扱いとすることを推奨する。*
+
+---
+
+# 2026-09 追補（2026-09-29 検証）
+
+[2026-09-review.md](./2026-09-review.md) の資料。検証水準の定義は冒頭と同じ。今回の調査環境では、直接取得できたのは GitHub 上の公式リポジトリだけで、政府・裁判所・標準化団体のサイトはすべて遮断されていた。そのため、GitHub 以外の項目は最高でも間接確認にとどまる。
+
+## A. 直接確認（一次資料本体を取得）
+
+| 項目 | 資料 |
+|---|---|
+| Linux `Assisted-by: LLM` への簡素化（816d9992d9、v7.3-rc1） | https://github.com/torvalds/linux/commit/816d9992d9ed434ec52cfbd63080d518e535a41b |
+| Linux バグ修正手順の追補（3d7c44f737、v7.2） | https://github.com/torvalds/linux/commit/3d7c44f73765d98665fb97a4fb89c002c88ba1b9 |
+| Linux `generated-content.rst` | https://github.com/torvalds/linux/blob/master/Documentation/process/generated-content.rst |
+| QEMU `AGENTS.md`（3ab8a155、2026-09-08） | https://github.com/qemu/qemu/commit/3ab8a15569afa9ffd89971dff34d0636d48cae3c |
+| QEMU code-provenance.rst（緩和未マージ、master 2026-09-27） | https://github.com/qemu/qemu/blob/master/docs/devel/code-provenance.rst |
+| ASF Generative Tooling Guidance の改訂（`Co-authored-by:` 追加、2026-09-29） | https://github.com/apache/www-site/commit/fe7423d8b7d8d70a49249c696e406a5c6bca5717 |
+| IETF AIPREF ドラフト（vocab-08、2026-09-14） | https://github.com/ietf-wg-aipref/drafts |
+| Cloudflare 2026-07-01 changelog（新規ドメインが対象） | https://github.com/cloudflare/cloudflare-docs |
+| CC Signals（v0.1 草案） | https://github.com/creativecommons/cc-signals |
+| W3C TDMRep（CG Final Report） | https://github.com/w3c/tdm-reservation-protocol |
+| C2PA 2.4 | https://github.com/c2pa-org/specifications |
+| llms.txt v2 | https://github.com/AnswerDotAI/llms-txt |
+| SPDX 3.x モデル | https://github.com/spdx/spdx-3-model |
+| Contributor Covenant 3.0 本文 | https://github.com/EthicalSource/contributor_covenant |
+| CC BY 4.0 §2(b)(1)・§8(a)、MPL 2.0、CC BY-SA 4.0 の本文（SPDX 収録） | https://github.com/spdx/license-list-data |
+| SemVer 2.0.0 / Conventional Commits 1.0.0 本文 | https://github.com/semver/semver 、https://github.com/conventional-commits/conventionalcommits.org |
+
+Rust、Node.js、CPython、curl、Ghostty、git、Servo、LLVM の AI ポリシーも、各リポジトリ上の原文を直接確認した（URL は各プロジェクトのリポジトリ）。
+
+## B. 間接確認（検索インデックスと複数の独立報道の照合）
+
+### 米国
+- In re OpenAI Copyright Infringement Litigation（No. 1:25-md-03143）の司法省意見書（2026-09-01）: https://www.courtlistener.com/docket/69879510/in-re-openai-inc-copyright-infringement-litigation/ 、WaPo 2026-09-02、Axios 2026-09-19
+- Doe v. GitHub（9th Cir. No. 24-7700、2026-09-16）: https://www.courthousenews.com/wp-content/uploads/2026/09/doe-vs-github-ninth-circuit.pdf 、https://www.authorsalliance.org/2026/09/23/resolving-an-interlocutory-appeal-ninth-circuit-affirms-dismissal-of-section-1202-dmca-claims-in-ongoing-doe-v-github-litigation/
+- Kadrey v. Meta: https://www.courtlistener.com/docket/67569326/kadrey-v-meta-platforms-inc/
+- Thomson Reuters v. ROSS: https://www.courtlistener.com/docket/70622297/thomson-reuters-enterprise-centre-gmbh-v-ross-intelligence-inc/
+- Concord v. Anthropic / Sony・Warner Chappell の提訴: https://www.courtlistener.com/docket/68889092/concord-music-group-inc-v-anthropic-pbc/ 、TechCrunch 2026-08-29
+- NO FAKES Act（S.4591）: https://www.congress.gov/bill/119th-congress/senate-bill/4591
+
+### EU・加盟国
+- GPAI 行動規範: https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai （著作権章 Measure 1.3 の文言は、GitHub 上の第三者による全文転載3件の一致で確認）
+- AI Act の執行権限: https://ai-act-service-desk.ec.europa.eu/en/ai-act/faq/commissions-enforcement-powers-related-ai-act-obligations-providers-most-advanced-models
+- 初の情報提供要求（2026-09-01）: https://agenceurope.eu/en/bulletin/article/13929/31/european-commission-sends-first-requests-for-information-to-more-than-30-ai-providers
+- オプトアウト方式の意見募集: https://digital-strategy.ec.europa.eu/en/consultations/commission-launches-consultation-protocols-reserving-rights-text-and-data-mining-under-ai-act-and
+- Kneschke v. LAION（OLG Hamburg 5 U 104/24、BGH I ZR 281/25）: https://www.twobirds.com/en/insights/2025/germany/higher-regional-court-hamburg-confirms-ai-training-was-permitted-(kneschke-v,-d-,-laion) 、https://www.profifoto.de/szene/notizen/2026/09/03/bgh-erwaegt-gang-zum-eugh/
+- GEMA v. OpenAI（LG München I 42 O 14139/24）: https://www.justiz.bayern.de/gerichte-und-behoerden/landgericht/muenchen-1/presse/2025/11.php
+- GEMA v. Suno（LG München I 42 O 763/25）: https://www.justiz.bayern.de/gerichte-und-behoerden/landgericht/muenchen-1/presse/2026/16.php
+- デンマーク東部高裁 BS-55572/2025-OLR: https://jura360.dk/artikel/high-court-rules-natural-language-opt-out-of-text-and-data-mining-insufficient
+- デンマーク肖像・声法案: https://www.europarl.europa.eu/thinktank/en/document/EPRS_ATA(2026)782611
+
+### 英国
+- Getty v. Stability AI（[2025] EWHC 2863 (Ch)）と控訴許可: https://www.hsfkramer.com/notes/ip/2025-12/getty-granted-permission-to-appeal-secondary-copyright-infringement-findings-in-getty-v-stability-ai
+- 政府の報告書（2026-03-18）: https://questions-statements.parliament.uk/written-statements/detail/2026-03-18/hcws1416
+- CMA の Google 向け行為要件: https://www.gov.uk/find-digital-markets-measures/google-search-publisher-conduct-requirement
+
+### 日本
+- プリンシプル・コード（2026-08-25）: https://current.ndl.go.jp/car/284024 、https://www.cas.go.jp/jp/seisakukaigi/titeki2/ai_kentoukai/kaisai/pdf/ai_principle_code.pdf
+- 知的財産推進計画2026: https://www.cas.go.jp/jp/seisakukaigi/titeki2/260612/keikaku_all.pdf
+- 不正競争防止小委員会（第29回）: https://www.meti.go.jp/shingikai/sankoshin/chiteki_zaisan/fusei_kyoso/029.html
+- AI事業者ガイドライン第1.2版: https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20260331_report.html
+
+### OSS・その他
+- Debian 一般決議 2026-002（LWN 経由。条文原文と票数は未確認）
+- Software Freedom Conservancy の推奨（2026-06-18）: https://sfconservancy.org/llm-gen-ai/llm-backed-generative-ai-recommendations.html
+- CC の方針更新（2026-04-23）: https://creativecommons.org/2026/04/23/update-on-cc-signals-what-changed-and-why/
+
+### 非強制ライセンス設計の先行例（[legal-analysis/non-coercive-design-2026.md](./legal-analysis/non-coercive-design-2026.md) の資料）
+- Jacobsen v. Katzer, 535 F.3d 1373 (Fed. Cir. 2008)、MDY v. Blizzard, 629 F.3d 928 (9th Cir. 2010)、TransCore v. ETC, 563 F.3d 1271 (Fed. Cir. 2009)
+- Open COVID Pledge FAQ: https://opencovidpledge.org/faqs/
+- ODC Attribution-Sharealike Community Norms: https://opendatacommons.org/norms/odc-by-sa/
+- 東京地判令和3年10月12日（令和3年(ワ)第5285号、CC BY-SA 写真のクレジット欠落で人格権侵害の賠償を認容）: https://www.hanketsu.jiii.or.jp/hanketsu/jsp/hatumeisi/news/202211news.pdf
+
+## C. 未確認（今回確認できなかったもの）
+
+- Cloudflare の 2026-09-15 の既定変更が実施されたことを告げる公式発表
+- 欧州司法裁判所 C-250/25 の法務官意見の有無と内容
+- BGH（I ZR 281/25）の付託決定・判決
+- EU の「一般に合意された機械可読オプトアウト方式」リストの公表
+- AI Office の情報提供要求の宛先企業名
+- FSF・FSFE・OSI のLLM生成コードに関する見解の中身
+- LLM による学習コードの逐語的再現とライセンス汚染に関する研究文献
+- Linux Foundation / DCO 側の AI に関する公式見解
+- Debian 一般決議の条文原文と票数
+- 学説として挙げられた文献（Fauchart & von Hippel 2008、Oliar & Sprigman 2008 等）の書誌

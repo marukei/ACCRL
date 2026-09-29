@@ -19,7 +19,7 @@
 
 ACCRL は、AI協働時代の創作倫理に関する文書プロジェクトです。著作権（経済的権利）ではなく著作者人格権を軸に、AI学習データに含まれる無数の創作者——「見えない貢献者」——への敬意を明文化する試みとして、2025年7月に始まりました。
 
-初版は「ライセンス」の形をとっていますが、これは概念実証（v0.1-PROTOTYPE）であり、法的完成度より問いの提示を優先しています。
+ACCRL は「ライセンス」の形をとっていますが、現行の条文は草案（v0.3-PROTOTYPE）であり、法的完成度より問いの提示を優先しています。
 
 ### 設計の中核軸：非強制（Non-Coercion）
 
@@ -47,12 +47,13 @@ ACCRL は、AI協働時代の創作倫理に関する文書プロジェクトで
 **思想（このプロジェクトの中身）**
 - [設計の中核軸（非強制）](./docs/design-axis.md) — 2026-08 再検討の核
 - [未解決の設計課題](./docs/open-questions.md) — 解決していないことの明示
-- [条文草案 v0.2-PROTOTYPE](./LICENSE-v0.2-PROTOTYPE.md) — 「器はライセンス、実態は誓約」に基づく現行草案
-- [条文 v0.1-PROTOTYPE](./LICENSE-v0.1-PROTOTYPE.md) — 初版の条文（歴史的記録として凍結）
+- [条文草案 v0.3-PROTOTYPE](./LICENSE-v0.3-PROTOTYPE.md) — **現行草案**。第I部（採用者の許諾と約束）と第II部（誓約と呼びかけ）の二部構成
+- [条文 v0.2-PROTOTYPE](./LICENSE-v0.2-PROTOTYPE.md) / [v0.1-PROTOTYPE](./LICENSE-v0.1-PROTOTYPE.md) — 過去の版（歴史的記録として凍結）
+- [非強制の設計分析](./docs/legal-analysis/non-coercive-design-2026.md) — v0.2 への内在的批判と v0.3 の応答
 - [理念詳細](./docs/philosophy.md) — 初版時点の理念説明
 
 **記録（外部状況と経緯）**
-- [2026年時点の外部環境](./docs/2026-review.md) — landscape 情報。**思想とは分離して管理**
+- [2026年時点の外部環境](./docs/2026-review.md) と [2026-09 追補](./docs/2026-09-review.md) — landscape 情報。**思想とは分離して管理**
 - [一次資料集](./docs/sources.md) — 上記の裏取りと検証状況
 - [透明性記録](./docs/transparency-records/) — 創世記録（2025-07-05）以降の全経緯
 - [AI協働の開示](./NOTICE-AI-COLLABORATION.md) — 本プロジェクト自体のAI協働記録
@@ -65,6 +66,7 @@ ACCRL は、AI協働時代の創作倫理に関する文書プロジェクトで
 - **2025-07-05**: 人間創作者と Claude（当時 Claude Sonnet 4）の対話から発足。[創世記録](./docs/transparency-records/2025-07-05-genesis.md)
 - **2025-07-15/16**: 条文案 v0.1-PROTOTYPE、防御的文書群を整備
 - **2026-08-12**: 13ヶ月ぶりの再検討。「採用率を目標にしない」スタンスの確定、非強制軸の明確化、外部環境の記録を追加。「器はライセンス、実態は誓約」を決定し、v0.2 草案を起草（[決定の記録](./docs/transparency-records/2026-08-12-vessel-decision.md)）
+- **2026-09-29**: 再調査と v0.2 への内在的批判を経て v0.3 草案を起草。「法的に拘束されるのは採用者だけ」「規範は著作権に依存しない」を明文化（[起草の記録](./docs/transparency-records/2026-09-29-v0.3-drafting.md)）
 
 ### 基本原則（初版から継続、第二原則は2026-08に改称）
 
@@ -74,9 +76,16 @@ ACCRL は、AI協働時代の創作倫理に関する文書プロジェクトで
 4. 文化的多様性の尊重
 5. 学習データ著作者への敬意
 
-### 器と実態（2026-08決定）
+### 器と実態
 
-ACCRL は "License" を名乗り続けるが、その実態は誓約（Covenant）である。ライセンスと宣言することで利用者に規範の存在を意識させ、一方で条文は条件付許諾や違反時の権利剥奪という強制の部品を持たない。強制力はライセンスの資格要件ではない——ライセンスフリーも立派なライセンスである。詳細は [v0.2 草案の冒頭](./LICENSE-v0.2-PROTOTYPE.md) と [design-axis.md §3](./docs/design-axis.md) を参照。
+ACCRL は "License" を名乗り続けるが、その実態は誓約（Covenant）である（2026-08 決定）。ライセンスと宣言することで利用者に規範の存在を意識させ、一方で条文は条件付許諾や違反時の権利剥奪という強制の部品を持たない。強制力はライセンスの資格要件ではない——ライセンスフリーも立派なライセンスである。
+
+v0.3 では、これを次の二文に整理した（[design-axis.md §4・§5](./docs/design-axis.md)）：
+
+- **法的に拘束されるのは、自らの作品に ACCRL を適用した採用者だけである。** 利用者にはいかなる法的義務も課さない
+- **規範は著作権に依存しない。** LLM が生成した部分など著作権が成立しない部分にも、誓約は規範として及ぶ
+
+採用は一行で表明できる：`SPDX-License-Identifier: LicenseRef-ACCRL-0.3`
 
 ---
 
@@ -95,7 +104,9 @@ We are not seeking advice on "how to get more adoption." We do welcome **intrins
 
 ACCRL is a document project on creative ethics in the age of human-AI collaboration, started in July 2025. It centers moral rights (not economic copyright) and articulates respect for the "Invisible Contributors" — the countless creators whose works became AI training data.
 
-The initial version takes the form of a license (v0.1-PROTOTYPE), but it is a proof of concept: posing questions takes priority over legal completeness.
+It takes the form of a license; the current text is a draft (v0.3-PROTOTYPE) in which posing questions takes priority over legal completeness.
+
+In v0.3, the design reduces to two sentences: **the only person legally bound is the adopter** (users bear no legal obligations), and **the norm does not depend on copyright** (the pledge reaches parts, such as LLM-generated code, in which no copyright subsists).
 
 ### The Core Design Axis: Non-Coercion
 
@@ -118,8 +129,8 @@ See [docs/design-axis.md](./docs/design-axis.md) and [docs/open-questions.md](./
 
 ### Key Documents
 
-- [LICENSE v0.2-PROTOTYPE draft](./LICENSE-v0.2-PROTOTYPE.md) — current draft: "a license in form, a covenant in substance" (Japanese; English translation planned)
-- [LICENSE v0.1-PROTOTYPE](./LICENSE-v0.1-PROTOTYPE.md) (Japanese original, frozen as historical record) / [English translation](./translations/en/LICENSE-v0.1-PROTOTYPE.md)
+- [LICENSE v0.3-PROTOTYPE draft](./LICENSE-v0.3-PROTOTYPE.md) — **current draft**: "a license in form, a covenant in substance" (Japanese; English translation planned)
+- [v0.2](./LICENSE-v0.2-PROTOTYPE.md) / [v0.1](./LICENSE-v0.1-PROTOTYPE.md) — frozen as historical records ([v0.1 English translation](./translations/en/LICENSE-v0.1-PROTOTYPE.md))
 - [Design Axis](./docs/design-axis.md) — the core of the 2026-08 review
 - [Open Questions](./docs/open-questions.md) — what remains unsolved, stated plainly
 - [2026 Landscape Review](./docs/2026-review.md) — external context, kept separate from the project's own reasoning
@@ -132,6 +143,7 @@ See [docs/design-axis.md](./docs/design-axis.md) and [docs/open-questions.md](./
 - **2025-07-05**: Started from a dialogue between the human creator and Claude (then Claude Sonnet 4). [Genesis record](./docs/transparency-records/2025-07-05-genesis.md)
 - **2025-07-15/16**: License draft v0.1-PROTOTYPE and supporting documents
 - **2026-08-12**: Review after 13 months — the "adoption is not the goal" stance made explicit, the non-coercion axis articulated, landscape records added. Decided "a license in form, a covenant in substance" and drafted v0.2
+- **2026-09-29**: After renewed research and intrinsic critique of v0.2, drafted v0.3
 
 ---
 

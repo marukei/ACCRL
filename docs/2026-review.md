@@ -5,6 +5,8 @@
 > **取扱い注意**: 本文書は外形的な landscape 情報であり、**ACCRL の価値判断の根拠に使ってはならない**。「この時期、世の中は何を議論していたか」を後年の読者に示すための背景資料である。思想は [design-axis.md](./design-axis.md) に、未解決課題は [open-questions.md](./open-questions.md) に分離して管理する。混ぜると外部状況が思想を侵食するからである。
 >
 > 記載内容は一次資料による裏取りを行った（検証状況の詳細は [sources.md](./sources.md)）。裏取りで確認できなかった点・修正した点は本文中に明記する。
+>
+> **2026-09-29 追記**: 2026-09-29 までの続報と、本文書の記述の訂正3点は [2026-09-review.md](./2026-09-review.md) に記録した。訂正箇所には本文中にも〔2026-09 訂正〕の注記を付した。本文そのものは 2026-08-12 時点の記録として残す。
 
 ---
 
@@ -38,7 +40,7 @@ Bartz v. Anthropic（N.D. Cal., No. 3:24-cv-05417）では、二段階の出来�
 ## 2. 学習データ提供者への対価 —— 経済的枠組みで実装が進行
 
 - **RSL (Really Simple Licensing)**: 2025年9月10日ローンチ（正式な RSL 1.0 仕様の公開は2025年12月）。非営利の RSL Collective が運営。robots.txt 等から参照する機械可読なXMLでライセンス条件を宣言する。条件項目に free / **attribution** / subscription / **pay-per-crawl** / **pay-per-inference** を含む
-- **Cloudflare**: Pay Per Crawl は HTTP 402 (Payment Required) ベース。2026年1月15日、AIデータマーケットプレイスの Human Native の買収を発表。2026年7月1日の発表で、クローラーを Search / Agent / Training の3分類に再編し、**2026年9月15日以降、広告掲載ページでは Training と Agent のクローラーをデフォルトブロック**する方針を示した。検索と学習の用途を分離しない混在クローラーは最も制限的な用途で判定されるため、事実上、AI企業に用途別クローラーの分離を迫るものである
+- **Cloudflare**: Pay Per Crawl は HTTP 402 (Payment Required) ベース。2026年1月15日、AIデータマーケットプレイスの Human Native の買収を発表。2026年7月1日の発表で、クローラーを Search / Agent / Training の3分類に再編し、**2026年9月15日以降、広告掲載ページでは Training と Agent のクローラーをデフォルトブロック**する方針を示した（〔2026-09 訂正〕公式 changelog の文面では、対象は「新規にオンボードするドメイン」に限られる）。検索と学習の用途を分離しない混在クローラーは最も制限的な用途で判定されるため、事実上、AI企業に用途別クローラーの分離を迫るものである
 - **IETF AIPREF WG**: AI利用に関する選好（preferences）を機械可読で表現する共通語彙と付与手段を標準化するワーキンググループ。2026年8月時点で主要ドラフト（draft-ietf-aipref-vocab / draft-ietf-aipref-attach）はいずれも RFC には至っていない
 
 ### 未解決として報告されている点（重要）
@@ -46,6 +48,7 @@ Bartz v. Anthropic（N.D. Cal., No. 3:24-cv-05417）では、二段階の出来�
 - 学習データセットのライセンス情報の欠落: Data Provenance Initiative の監査（Nature Machine Intelligence 2024）によれば、集約プラットフォーム上で人気データセットの**70%超がライセンス「未指定」、50%超が誤分類**（「消失」というより表記の省略と誤りの複合。研究チームの再注釈で未指定率は30%まで低減できたという続報もある）
 - pay-per-inference は、推論時にどのコンテンツが使われたかを検証可能に追跡する技術が確立されておらず、AI企業の自己申告に依存する
 - 2026年8月時点で、主要AI企業（モデル提供者）が RSL 等の宣言を尊重すると正式表明した事実は、報道・公式発表として確認されていない
+  - 〔2026-09 訂正〕「等」の範囲が広すぎた。EU の汎用AI行動規範の著作権章（2025-07）で、主要なモデル提供者は robots.txt に従うことを署名文書で約束している。尊重の表明が確認されていないのは、RSL のような**ライセンス条件**（帰属・対価）の宣言についてである。[2026-09-review.md](./2026-09-review.md) §0 参照
 
 → **ACCRL が扱おうとした「見えない貢献者」の問題は、強制力と経済的インセンティブを備えた枠組みでもまだ解けていない。** ここが記録として残す価値のある空白である。
 
@@ -54,7 +57,7 @@ Bartz v. Anthropic（N.D. Cal., No. 3:24-cv-05417）では、二段階の出来�
 `Assisted-by:` 系のコミットトレーラが事実上の収束点になりつつある。
 
 - **Fedora**: 2025年10月22日、Fedora Council が「Policy on AI-Assisted Contributions」を承認。3本柱は ①説明責任（AIを使っても投稿者が著者であり全責任を負う）②透明性（AI出力を大きく変更せず contribution の主要部分とした場合は開示必須。git 管理下では `Assisted-by:` トレーラが推奨手段）③AI利用の制限（AIを人間の評価・選考の唯一または最終の判断者にしてはならない）
-- **Linux Kernel**: `Documentation/process/coding-assistants.rst`（2026年1月コミット、Linux 7.0 で正式収録）が `Assisted-by: AGENT_NAME:MODEL_VERSION` 形式を規定。**「AIエージェントは Signed-off-by を付けてはならない。DCO（Developer Certificate of Origin）を法的に証明できるのは人間のみ」**と明記
+- **Linux Kernel**: `Documentation/process/coding-assistants.rst`（2026年1月コミット、Linux 7.0 で正式収録）が `Assisted-by: AGENT_NAME:MODEL_VERSION` 形式を規定（〔2026-09 訂正〕v7.3-rc1 以降は `Assisted-by: LLM [tools]` に簡素化され、モデル名を記録しなくなった）。**「AIエージェントは Signed-off-by を付けてはならない。DCO（Developer Certificate of Origin）を法的に証明できるのは人間のみ」**と明記
 - **LLVM**: 「AI Tool Use Policy」を2026年1月16日に採択。human-in-the-loop を核とし、実質的なAI生成物には `Assisted-by:` 等のラベル付けを求め、人間の承認なしに行動するエージェントを禁止
 - **OpenInfra Foundation**: Assisted-By（補助的）/ Generated-By（生成的）の2層ラベル。**WordPress**: 2026年2月1日に AI Guidelines v0 を公開
 - **QEMU**: 2025年6月24日にAI生成コードの拒否ポリシーを明文化（それ以前は明文ポリシーなし）。2026年5月28日、Paolo Bonzini が非クリティカル領域（機械的変更・テスト・ドキュメント・小規模修正）での許容への**緩和を提案**したが、**2026年8月時点で未マージであり、現行ポリシーは依然として全面拒否**である

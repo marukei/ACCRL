@@ -24,6 +24,16 @@ This project is created through human-AI collaboration. This document applies AC
 - **AIの協働寄与**: 外部環境の調査と一次資料の裏取り、文書の整理・執筆、リポジトリへの反映
 - **成果物**: [design-axis.md](./docs/design-axis.md)、[open-questions.md](./docs/open-questions.md)、[2026-review.md](./docs/2026-review.md)、[sources.md](./docs/sources.md)、本文書、README改訂
 
+### v0.3 起草（2026-09-29）
+
+- **人間創作者の依頼**: 直近のAI・LLM生成コード・感染しないライセンスのあり方を多角的に再調査し、最新版を作成すること
+- **AI協働者**: Claude Code
+- **AIの協働寄与**: 4方向の並行調査と検証水準の明記、v0.2 と周辺文書の内在的な点検、v0.3 草案の起草、思想文書・外部環境文書・FAQ の整合更新、前回記録の誤りの訂正
+- **人間の判断を待つ点**: v0.3 の設計の承認、人格権の不行使宣言の既定、自己適用ライセンスの版の切り替え（[透明性記録](./docs/transparency-records/2026-09-29-v0.3-drafting.md)）
+- **成果物**: [LICENSE-v0.3-PROTOTYPE.md](./LICENSE-v0.3-PROTOTYPE.md)、[2026-09-review.md](./docs/2026-09-review.md)、[non-coercive-design-2026.md](./docs/legal-analysis/non-coercive-design-2026.md)
+
+v0.3 の論理では、誓約できるのは人間だけである。本プロジェクトの条文と文書の起草には AI が深く関わっているが、ACCRL を採用し誓約する主体は人間創作者である。
+
 なお、2026-08 のレビューセッションでは、AI側が「採用率」という本プロジェクトが採らない物差しを無断で持ち込み、非強制の設計を欠陥として数えるという誤りを犯した。人間創作者がこれを指摘・訂正した経緯も含めて、協働の記録である。誤りの内容は引き継ぎ文書に記録され、以後の協働の規律とした。
 
 ## 2. `Assisted-by:` トレーラとの関係
@@ -40,10 +50,12 @@ This project is created through human-AI collaboration. This document applies AC
 
 本リポジトリのコミットは、AI（Claude Code）の支援を受けたものに `Assisted-by: Claude Code` トレーラまたは `Co-Authored-By:` トレーラを付す。コミットに責任を持つのは人間創作者である。
 
+ACCRL v0.3 第10条の対応では、`Assisted-by: LLM` のようにAIを使用した事実だけを示す形がレベル1、使用したAIシステムやモデルを示す形がレベル2に当たる。本リポジトリはレベル2以上の開示を行っている。
+
 ## 3. この文書自体について
 
 この文書自体も、人間創作者の方針決定に基づき Claude Code が起草し、人間創作者が確認・修正するプロセスで作成されている。
 
 ---
 
-*最終更新: 2026-08-12*
+*最終更新: 2026-09-29*
