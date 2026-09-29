@@ -256,6 +256,8 @@ ACCRLプロジェクトでは、以下の4フェーズサイクルで議論を�
 - [器と呼称の決定](./docs/transparency-records/2026-08-12-vessel-decision.md)
 - [v0.3 の起草](./docs/transparency-records/2026-09-29-v0.3-drafting.md)
 - [v0.3 の承認と採用](./docs/transparency-records/2026-09-29-v0.3-approval.md)
+- [自己署名と英訳](./docs/transparency-records/2026-09-29-signing-and-translation.md)
+- [公開前の文言修正と署名](./docs/transparency-records/2026-09-30-v0.3-wording-corrections.md)
 
 ## 協働規律 / Collaboration Disciplines
 

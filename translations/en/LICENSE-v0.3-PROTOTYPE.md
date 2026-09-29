@@ -9,6 +9,7 @@ Version 0.3-PROTOTYPE (29 September 2026)
 
 > **Status**: This version is the current version, approved by the human Creator (approved 29 September 2026; it is also applied to this project itself). v0.1-PROTOTYPE (15 July 2025) and the v0.2-PROTOTYPE draft (12 August 2026) are frozen as historical records.
 > On approval, the human Creator decided to change Article 5 (moral rights) to an "Intentional Silence" and to delete the optional declaration of non-exercise that had been included at the drafting stage (the pre-approval draft remains in the git history at commit 9ec04eb).
+> On 30 September 2026, before publication, eight wording corrections that do not change the meaning were made, and the human Creator signed the corrected version ([Transparency Record 30 September 2026](../../docs/transparency-records/2026-09-30-v0.3-wording-corrections.md)).
 > This version was drafted on the basis of the re-examination of September 2026 and an immanent critique of v0.2 (a critique of v0.2 on its own premises) ([Transparency Record 29 September 2026](../../docs/transparency-records/2026-09-29-v0.3-drafting.md)).
 > For the design philosophy, see [docs/design-axis.md](../../docs/design-axis.md); for unresolved issues, see [docs/open-questions.md](../../docs/open-questions.md).
 
@@ -73,7 +74,7 @@ The Adopter may exclude the Work from the grant for uses whose purpose is AI tra
 2. **Legal effect is determined by law.** What legal effect a reservation has is decided by the law of each jurisdiction. In a jurisdiction where statutory exceptions and limitations to copyright permit AI training without permission, a reservation is likely to have no legal effect. Conversely, some jurisdictions give legal effect to a rightsholder's reservation.
 3. **Method of indication.** It is recommended that a reservation be indicated not only in human-readable form (e.g. "This Work is excluded from the grant for AI training purposes") but also in machine-readable form (robots.txt, a TDM rights reservation notice, a standardised AI-usage preference signal, etc.).
 
-## Article 3: Undertaking Not to Enforce
+## Article 3: Undertaking Not to Enforce the Pledges
 
 1. **The grant has no conditions.** No provision of this License constitutes a condition of the grant.
 2. **The grant does not terminate.** The grant does not terminate even where a use does not accord with the pledges in Part II.
@@ -81,9 +82,9 @@ The Adopter may exclude the Work from the grant for uses whose purpose is AI tra
 
 The only response of this License to a use that does not accord with the pledges is the dialogue described in Article 11.
 
-## Article 4: What This License Does Not Reach
+## Article 4: What the Grant Does Not Reach
 
-This License neither grants nor restricts anything with respect to parts in which the Adopter holds no rights (including parts in which no copyright subsists) and uses that may lawfully be made without permission (such as uses under statutory exceptions and limitations to copyright).
+Part I of this License neither grants nor restricts anything with respect to parts in which the Adopter holds no rights (including parts in which no copyright subsists) and uses that may lawfully be made without permission (such as uses under statutory exceptions and limitations to copyright).
 
 However, because the pledges and invitations in Part II are norms that do not depend on rights, they extend, as norms, to these parts and uses as well.
 
@@ -150,7 +151,7 @@ This License does not require the adoption of this License for Derivatives, or f
 
 ### 8.4 No Arbiter
 
-Whether a statement contains respect equivalent to the pledges of this License ("equivalent respect") is judged by the person making that statement, who also indicates that judgement. This License establishes no arbiter of any kind.
+Whether a statement attached to a Derivative (including one made under another licence or with no licence at all) contains respect equivalent to the pledges of this License is judged by the person making that statement, who also indicates that judgement. This License establishes no arbiter of any kind.
 
 ## Article 9: AI Training
 
@@ -168,13 +169,13 @@ AI developers often do not stand in the position of licensee under this License.
 
 ## Article 10: Levels of Transparency in Collaboration
 
-1. Recommended levels of transparency
+1. Levels of transparency
    - Level 1 (Minimal): The fact that AI was used
    - Level 2 (Standard): The AI used, and the nature of the collaboration
    - Level 3 (Recommended): A detailed record of the process
    - Level 4 (Ideal): A complete record of the dialogue
 2. Per-commit provenance notes (commit trailers such as `Assisted-by:`) are compatible with this Article. A form that shows only the fact that AI was used (e.g. `Assisted-by: LLM`) corresponds to Level 1; a form that shows the AI system or model used (e.g. `Assisted-by: [AI System Name]:[Model]`) corresponds to Level 2. Which form to choose is decided by the person making the disclosure.
-3. The training data and internal structure of many AI systems are not fully disclosed. This limitation is disclosed to the extent it can be known.
+3. The training data and internal structure of many AI systems are not fully disclosed. Bearing this limitation in mind, the person making the disclosure discloses to the extent that they can know.
 
 ## Article 11: Uses Not in Accord with the Pledges, and Dialogue
 
@@ -211,7 +212,7 @@ If any provision of this License is held invalid, the other provisions remain in
 
 ## Article 16: Versions
 
-The Adopter applies this License by specifying a particular version of it. The publication of a later version does not require the Adopter or any User to apply it.
+The Adopter applies this License by specifying a particular version of it. Even when a later version is published, no one is required to apply it.
 
 ---
 
@@ -229,7 +230,7 @@ SPDX-License-Identifier: LicenseRef-ACCRL-0.3
 This work is published under the AI Collective Creativity Respect License (ACCRL) v0.3, and we make its pledge.
 Creator: [Name]
 AI Collaborator: [AI System Name] (Transparency Level: [1-4])
-We acknowledge the countless creators whose works contributed to the AI's training.
+We express our respect for the countless creators whose works contributed to the AI's training.
 ```
 
 ### Per-commit provenance (Article 10)
@@ -257,7 +258,7 @@ It is also recommended that a machine-readable indication be used.
 | Item | v0.2 draft | v0.3 | Reason (immanent critique) |
 |---|---|---|---|
 | Who is legally bound | Not stated | States that it is **the Adopter only** | The most accurate expression of non-coercion |
-| Legal nature of Part II | "Not legal enforcement" | Expressly disclaims: **"not a contract, and imposes no legal obligation on anyone"** | Removes the possibility of being read as a covenant (an enforceable promise) under Anglo-American law |
+| Legal nature of Part II | "Not legal enforcement" | Expressly disclaims: **"not a contract, and imposes no legal obligation on anyone"** | Reduces the room for being read as a covenant (an enforceable promise) under Anglo-American law |
 | Who makes the pledge | "Users … pledge" (third person) | The Adopter's **first-person pledge** plus **invitations** to those who come into contact with the Work | Does not attribute a pledge to people who have not consented |
 | "Undertaking" and "pledge" | Used interchangeably | Distinguishes the legally operative **undertaking** (Part I) from the normative **pledge** (Part II) | Resolves the double meaning of the terms |
 | Revocation of the grant | Not stated | **Irrevocable** | Settles the scope of the Adopter's undertakings |
