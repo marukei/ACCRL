@@ -13,7 +13,7 @@
 
 | 日本語 | English | 状態 | 理由 |
 |---|---|---|---|
-| 誓約 | **pledge** | 確定 | `LICENSE` と付録Aの英文（"we make its pledge"）で既に用いている。**covenant は用いない。** 英米法の covenant は強制可能な約束を意味し、v0.3 はまさにその読まれ方を除くために第II部を「契約ではない」と否認した（付録B）|
+| 誓約 | **pledge** | 確定 | 付録Aの英文（"we make its pledge"）と `LICENSE` の英文（"I, its human creator, make its pledge"）で既に用いている。**covenant は用いない。** 英米法の covenant は強制可能な約束を意味し、v0.3 はまさにその読まれ方を除くために第II部を「契約ではない」と否認した（付録B）|
 | 約束（第I部の、法的に作用するもの） | **undertaking** / 動詞 **undertake** | 暫定 | 「誓約（pledge）」と区別できる、法的に作用する約束を指す語。promise は日常語として pledge と区別しにくく、commitment は非拘束の意味でも使われるため避けた。英国法で undertaking は執行可能な正式の約束を指し、法的に作用する第I部には望ましい連想である（査読の指摘）。「約束しない」も no undertaking / not undertaken とし、promise を混ぜない |
 | 誓約者 | **pledger** | 暫定 | **pledgor は用いない**（担保法の術語）|
 | 応じる（呼びかけに） | **respond to** | 暫定 | **accept は用いない。** invitation → accept は英米法の申込と承諾（契約の成立）を連想させる |
@@ -108,12 +108,12 @@ v0.3 の核心は「法的に拘束されるのは採用者だけ」である。
 
 ### 表記
 
-- 定義語は大文字で書く（the Work, Adopter, Creator, User, Derivative 等）。ただし **undertaking と pledge は小文字**とする。本文で一般名詞としても頻出し、既存の英文（"we make its pledge"）も小文字であるため
+- 定義語は大文字で書く（the Work, Adopter, Creator, User, Derivative 等）。ただし **undertaking と pledge は小文字**とする。本文で一般名詞としても頻出し、既存の英文（"make its pledge"）も小文字であるため
 - 条の参照は "Article 2.2" とする。見出しが Article であるため
 
 ## 5. 既存の英文との関係
 
-- `LICENSE`（自己適用）の英文 "This project is published under … and we make its pledge." と、付録Aの英語の雛形は、そのまま用いる
+- 付録Aの英語の雛形は、そのまま用いる。`LICENSE`（自己適用）の英文は、2026-09-30 に誓約の一人称を「私」に揃えたため "… and I, its human creator, make its pledge." となっている
 - v0.1 の英訳（[en/LICENSE-v0.1-PROTOTYPE.md](./en/LICENSE-v0.1-PROTOTYPE.md)）は v0.1 と同様に凍結されている。本用語集と訳語が異なるのは、v0.3 で概念が改められたためである（例：継承 = Inheritance → Carry Respect Forward）
 
 ---

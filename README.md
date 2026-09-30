@@ -143,7 +143,7 @@ See [docs/design-axis.md](./docs/design-axis.md) and [docs/open-questions.md](./
 
 - **5 July 2025**: Started from a dialogue between the human creator and Claude (then Claude Sonnet 4). [Genesis record](./docs/transparency-records/2025-07-05-genesis.md)
 - **15/16 July 2025**: Licence draft v0.1-PROTOTYPE and supporting documents
-- **12 August 2026**: Review after 13 months — the "adoption is not the goal" stance made explicit, the non-coercion axis articulated, landscape records added. Decided "a licence in form, a covenant in substance" and drafted v0.2
+- **12 August 2026**: Review after 13 months — the "adoption is not the goal" stance made explicit, the non-coercion axis articulated, landscape records added. Decided "a licence in form, a covenant in substance" (the term then used; v0.3 says "pledge" to distinguish it from a covenant in the Anglo-American legal sense) and drafted v0.2
 - **29 September 2026**: After renewed research and an immanent critique of v0.2, drafted and approved v0.3; this project itself moved to v0.3
 - **30 September 2026**: Wording corrections to v0.3 before publication, prompted by a round-trip translation check; the human creator signed the corrected version. Returned to the origin and restated v0.3 as "a shield, not a net"
 
