@@ -78,6 +78,7 @@ ACCRL/
 9. **誓約できるのは人間だけ。** AI（Claude を含む）は採用者として誓約しない。自己適用ライセンス（LICENSE）の版を切り替えることは採用者の誓約にあたるため、人間創作者の判断なしに行わない（2026-09-29、人間創作者の判断で v0.3 に切り替え済み）
 10. **過去の版と記録は改変しない。** 過去の条文は凍結し、外部環境の記録の誤りは〔YYYY-MM 訂正〕の注記を付けて見える形で訂正する
 11. **人格権は「意図的な沈黙」（2026-09-29決定）。** ACCRL は採用者が人格権を行使しないことも、行使することも約束しない。不行使の宣言は盾を手放す危険を、行使の明言は萎縮を生むため。この曖昧さは選択であり、「未解決」や「欠陥」として扱わない。蒸し返さない（docs/transparency-records/2026-09-29-v0.3-approval.md）
+12. **細かい議論が増えたら原点に立ち返る（2026-09-30）。** 原点の5点（docs/design-axis.md §1.1）のどれにも触れない論点は、本丸（open-questions）に登録しない。コアは日本語であり、英語は世に問うために作る。翻訳から生じた論点を、日本語のコアを変える理由にしない。サブエージェントの合議は細部を深めるのに長けるが、何が本丸かの判断は司令塔が原点に照らして行う（docs/transparency-records/2026-09-30-return-to-origin.md）
 
 ### 3. ライセンス条文作成時の注意点
 
@@ -258,6 +259,7 @@ ACCRLプロジェクトでは、以下の4フェーズサイクルで議論を�
 - [v0.3 の承認と採用](./docs/transparency-records/2026-09-29-v0.3-approval.md)
 - [自己署名と英訳](./docs/transparency-records/2026-09-29-signing-and-translation.md)
 - [公開前の文言修正と署名](./docs/transparency-records/2026-09-30-v0.3-wording-corrections.md)
+- [原点への回帰](./docs/transparency-records/2026-09-30-return-to-origin.md)
 
 ## 協働規律 / Collaboration Disciplines
 
