@@ -1,263 +1,175 @@
 # よくある質問（FAQ）
 
-[English](#english) | [日本語](#japanese)
+[日本語](#japanese) | [English](#english)
 
----
-
-<a name="english"></a>
-## English
-
-### Why do we need another license?
-
-**Q: Why not just use Creative Commons or modify existing licenses?**
-
-A: Existing licenses were designed for a pre-AI era. They assume:
-- Clear human authorship
-- Direct contribution tracking
-- Copyright as the primary framework
-
-ACCRL addresses new challenges:
-- Human-AI collaboration ambiguity
-- "Invisible contributors" in AI training data
-- Moral rights in cross-cultural contexts
-- Transparency in creative processes
-
-We're not replacing existing licenses; we're exploring new territory.
-
-### Legal Questions
-
-**Q: Does this have legal enforceability?**
-
-A: ACCRL operates on multiple levels:
-1. **Contract law**: Yes, as an agreement between parties
-2. **Moral rights**: Varies by jurisdiction
-3. **Ethical norms**: Community-enforced standards
-
-Think of it like GPL in the early days - enforcement comes from community adoption.
-
-**Q: What about jurisdictions that don't recognize moral rights?**
-
-A: ACCRL includes fallback provisions. In jurisdictions with weak moral rights:
-- Contract terms provide minimum protection
-- Community norms fill gaps
-- Reputation mechanisms encourage compliance
-
-### Practical Implementation
-
-**Q: This seems too idealistic to work in practice.**
-
-A: All transformative licenses started as "idealistic":
-- GPL was called "viral" and impractical
-- Creative Commons was "too complicated"
-- Open source itself was "business suicide"
-
-We provide:
-- Graduated implementation (Levels 1-4)
-- Minimal compliance options
-- Migration paths from existing licenses
-
-**Q: Can companies use this?**
-
-A: Absolutely. ACCRL:
-- Allows commercial use
-- Doesn't require open-sourcing
-- Offers flexible transparency levels
-- Protects company interests while respecting creators
-
-**Q: How do I track "invisible contributors"?**
-
-A: You don't need to track individuals. Instead:
-- Acknowledge the collective contribution
-- Support the creative ecosystem
-- Be transparent about AI use
-- That's it at the basic level
-
-### Philosophy & Approach
-
-**Q: Why "idealism-first"?**
-
-A: Legal perfection can come later. First, we need to:
-- Establish ethical direction
-- Build community consensus
-- Test real-world application
-- Then refine legal language
-
-**Q: Isn't this too Japan-centric?**
-
-A: Moral rights exist in:
-- Berne Convention (164 countries)
-- EU law
-- Many civil law jurisdictions
-
-We're making universal concepts more explicit, not imposing one culture's values.
-
-### Comparisons
-
-**Q: How does this differ from CC-BY-SA?**
-
-| Aspect | CC-BY-SA | ACCRL |
-|--------|----------|-------|
-| Focus | Copyright | Moral rights |
-| AI consideration | None | Central |
-| Transparency | Attribution only | Process documentation |
-| Training data | Not addressed | Acknowledged |
-
-**Q: What about the Ethical Source movement?**
-
-A: We complement each other:
-- Ethical Source: Usage restrictions based on ethics
-- ACCRL: Process transparency and creator dignity
-- Both: Expanding "openness" beyond just code
-
-### Getting Started
-
-**Q: I want to use ACCRL. Where do I start?**
-
-A: 
-1. Read the [LICENSE-DRAFT](./LICENSE-v0.1-PROTOTYPE.md)
-2. Choose your transparency level (1-4)
-3. Create a basic TRANSPARENCY.md
-4. Add ACCRL notice to your README
-5. Join the discussion!
-
-**Q: Can I use this alongside other licenses?**
-
-A: Yes, for different components:
-- Code: MIT/Apache/GPL
-- Documentation: ACCRL
-- Mixed works: Dual licensing
+> 本FAQは v0.3-PROTOTYPE（2026-09-29）に合わせて改訂した。2025-07 版の記述のうち、現在の設計と矛盾していたもの（「契約法上有効」「執行力はコミュニティの採用から生まれる」「普遍的な概念を明確にしているだけ」等）は削除した。旧版は git の履歴に残っている。
 
 ---
 
 <a name="japanese"></a>
 ## 日本語
 
-### なぜ新しいライセンスが必要なのか
+### このプロジェクトについて
 
-**Q: Creative Commonsや既存ライセンスの修正ではダメなのですか？**
+**Q: 何を目指しているのですか？ 普及ですか？**
 
-A: 既存ライセンスはAI以前の時代に設計されており、以下を前提としています：
-- 明確な人間の著作者
-- 直接的な貢献の追跡
-- 著作権を主要な枠組み
+A: 普及は目指していません。目的は、AI時代の創作倫理について「この時期にこういう問いを立てた文書があった」と後年参照できる記録を残すことです。採用の数や話題性を成功の指標にしません（[design-axis.md](./docs/design-axis.md) §0）。
 
-ACCRLは新しい課題に対応します：
-- 人間とAIの協働の曖昧さ
-- AI学習データの「見えない貢献者」
-- 異文化間での人格権
-- 創作プロセスの透明性
+**Q: 既存のライセンス（MIT、GPL、Creative Commons）ではだめなのですか？**
 
-既存ライセンスを置き換えるのではなく、新しい領域を探求しています。
+A: 既存のライセンスは著作権の上に成り立っています。LLM が生成したコードのように、著作権が成立しない部分を含む作品では、ライセンスは許諾するものを持たず、空振りします。ACCRL の第II部（誓約）は規範であって著作権に依存しないため、著作権のない部分にも規範として及びます（[design-axis.md](./docs/design-axis.md) §5）。ACCRL は既存のライセンスを置き換えるものではなく、それらが扱わない領域を扱います。
 
-### 法的な質問
+### 法的な性質
 
 **Q: 法的強制力はありますか？**
 
-A: ACCRLは複数のレベルで機能します：
-1. **契約法**: 当事者間の合意として有効
-2. **人格権**: 法域により異なる
-3. **倫理規範**: コミュニティによる執行
+A: 利用者に対しては、ありません。これは欠陥ではなく設計です。
 
-初期のGPLのように、執行力はコミュニティの採用から生まれます。
+- **第I部（許諾と約束）** は法的に作用します。ただし拘束されるのは採用者（自分の作品に ACCRL を適用した人）だけです。採用者は、撤回できない許諾と、誓約を理由に訴えないことを約束します
+- **第II部（誓約と呼びかけ）** は契約ではなく、誰にも法的義務を課しません
 
-**Q: 人格権を認めない法域ではどうなりますか？**
+つまり、ACCRL で法的に拘束されるのは、自ら選んで採用した人だけです。
 
-A: ACCRLには代替規定があります。人格権が弱い法域では：
-- 契約条項が最小限の保護を提供
-- コミュニティ規範がギャップを埋める
-- 評判メカニズムが遵守を促進
+**Q: 強制力がないのに「ライセンス」と名乗るのはなぜですか？**
 
-### 実装について
+A: ライセンスと宣言することで、利用者に「この作品には規範がある」と意識させるためです。強制力の強弱はライセンスの資格要件ではありません。ライセンスフリーも立派なライセンスです。ACCRL は「器はライセンス、実態は誓約」という設計をとっています（[決定の記録](./docs/transparency-records/2026-08-12-vessel-decision.md)）。
 
-**Q: 理想論すぎて実用的でないのでは？**
+**Q: 著作者人格権はどうなりますか？**
 
-A: すべての革新的なライセンスは「理想論」から始まりました：
-- GPLは「ウイルス的」で非実用的と呼ばれた
-- Creative Commonsは「複雑すぎる」と言われた
-- オープンソース自体が「ビジネス自殺行為」だった
+A: 放棄も譲渡もされず、創作者のもとに残ります。ACCRL は人格権を根拠に新たな条件や義務を作りません。そのうえで、採用者が人格権を行使しないことも、行使することも約束しません。これは意図的な沈黙です。不行使を宣言すれば創作者が盾を手放す危険を負い、行使を明言すれば利用者を萎縮させるからです。人格権は法律の問題であり、その扱いは法律と個々の状況に委ねられます（v0.3 第5条）。
 
-私たちは以下を提供します：
-- 段階的実装（レベル1-4）
-- 最小限の遵守オプション
-- 既存ライセンスからの移行パス
+**Q: 誓約に従わない利用があったらどうなりますか？**
 
-**Q: 企業でも使えますか？**
+A: 許諾は終了しませんし、採用者は誓約を理由に訴えません。ACCRL の応答は、対話と是正の呼びかけだけです。誓約に沿うかどうかを判定する権限は、誰にも与えられていません（v0.3 第11条）。ただし、法律上の権利（人格権など）の侵害に当たる場合、それは法律の問題として残ります。
 
-A: もちろんです。ACCRLは：
-- 商用利用を許可
-- オープンソース化を要求しない
-- 柔軟な透明性レベルを提供
-- 創作者を尊重しつつ企業利益を保護
+### AIとの関係
 
-**Q: 「見えない貢献者」をどう追跡すればいいですか？**
+**Q: AIの学習に使ってよいのですか？**
 
-A: 個人を追跡する必要はありません。代わりに：
-- 集合的な貢献を認識する
-- 創作エコシステムを支援する
-- AI使用について透明にする
-- 基本レベルではこれだけです
+A: 既定では、第I部の許諾にAI学習が含まれます。そのうえで、学習する人に、見えない貢献者への敬意と、学習に用いたことの開示を呼びかけています。採用者は、AI学習を許諾の範囲から除く留保を付すこともできます。留保の法的効果は各国の法律によって決まり、効果を持たない国（日本など、許諾なく学習できる国）もあります。留保は、人が読める形に加えて、機械が読める形でも示すことをおすすめします（v0.3 第2.2条・第9条）。
 
-### 理念とアプローチ
+**Q: AI開発者を拘束できるのですか？**
 
-**Q: なぜ「理念先行型」なのですか？**
+A: できない場合が多い、と条文自身が書いています。AI開発者は多くの場合、ライセンスの被許諾者の立場に立たないからです。ACCRL はこの限界を隠しません（[open-questions.md](./docs/open-questions.md) Q4）。
 
-A: 法的完璧性は後から来ます。まず必要なのは：
-- 倫理的方向性の確立
-- コミュニティの合意形成
-- 実世界での適用テスト
-- その後で法的言語の洗練
+**Q: AIは誓約できますか？**
 
-**Q: 日本中心的すぎませんか？**
+A: できません。誓約できるのは人間だけです。AIと協働して作った作品でも、誓約するのは人間の採用者です（v0.3 第1条4号）。
 
-A: 人格権は以下に存在します：
-- ベルヌ条約（164カ国）
-- EU法
-- 多くの大陸法系法域
+**Q: `Assisted-by:` トレーラとの関係は？**
 
-私たちは普遍的概念をより明確にしているだけで、一つの文化の価値観を押し付けているわけではありません。
+A: 両立します。AIを使った事実だけを示す形（`Assisted-by: LLM`）は透明性レベル1、使ったAIシステムやモデルを示す形はレベル2に当たります（v0.3 第10条）。
 
-### 比較
+### 使い方
 
-**Q: CC-BY-SAとどう違いますか？**
+**Q: 使うにはどうすればよいですか？**
 
-| 側面 | CC-BY-SA | ACCRL |
-|------|----------|-------|
-| 焦点 | 著作権 | 人格権 |
-| AI考慮 | なし | 中心的 |
-| 透明性 | 帰属表示のみ | プロセス文書化 |
-| 学習データ | 言及なし | 認識あり |
+A: 一行で表明できます。
 
-**Q: Ethical Source運動との関係は？**
+```
+SPDX-License-Identifier: LicenseRef-ACCRL-0.3
+```
 
-A: 相互補完的です：
-- Ethical Source: 倫理に基づく使用制限
-- ACCRL: プロセス透明性と創作者の尊厳
-- 両方: 「オープン性」をコード以上に拡張
+README には次のように書けます。
 
-### 始め方
+```
+本作品は AI Collective Creativity Respect License (ACCRL) v0.3 の下で公開し、その誓約を行います。
+```
 
-**Q: ACCRLを使いたいです。どこから始めれば？**
+採用の表明そのものが、第6条の誓約（協働の透明性、見えない貢献者への敬意、他者の創作的人格の尊重、強制しないこと）の表明になります。詳しくは [v0.3 付録A](./LICENSE-v0.3-PROTOTYPE.md) をご覧ください。
 
-A: 
-1. [LICENSE-DRAFT](./LICENSE-v0.1-PROTOTYPE.md)を読む
-2. 透明性レベル（1-4）を選ぶ
-3. 基本的なTRANSPARENCY.mdを作成
-4. READMEにACCRL通知を追加
-5. 議論に参加！
+**Q: ACCRL の作品を改変したら、改変物も ACCRL にしなければなりませんか？**
+
+A: いいえ。派生物にどのライセンスを使うかは自由です。ACCRL が呼びかけるのは、原作への帰属と、誓約が存在することを示し続けること（敬意の継承）だけです。ライセンスの継承は求めません（v0.3 第8条）。
 
 **Q: 他のライセンスと併用できますか？**
 
-A: はい、異なるコンポーネントで：
-- コード: MIT/Apache/GPL
-- ドキュメント: ACCRL
-- 混合作品: デュアルライセンス
+A: できます。ACCRL は、他のライセンスの下にある著作物との組み合わせを妨げません。
+
+### 理念
+
+**Q: 日本中心的ではありませんか？**
+
+A: ACCRL は日本的な人格権思想を出発点に持ちます。ただし、それが普遍的に正しいとは主張しません。異なる法域や文化圏の創作倫理と共存し、選択肢の一つとして自らを置いています。普遍性の主張は、それ自体が一種の強制だからです（[design-axis.md](./docs/design-axis.md) §2.4）。
+
+**Q: 批判は受け付けていますか？**
+
+A: 「思想が不明瞭だ」「内部で矛盾している」という内在的な批判を歓迎します。v0.3 は、まさにそうした内在的批判から生まれました（[legal-analysis/non-coercive-design-2026.md](./docs/legal-analysis/non-coercive-design-2026.md)）。一方、「使われていない」「法的に不利だ」という外形的な評価は、このプロジェクトの目的に対して的を外しています。
 
 ---
 
-## さらに質問がある場合
+<a name="english"></a>
+## English
 
-- GitHub Issuesで質問（`question`ラベル）
-- Discussionsで議論
-- 透明性記録を参照
+### About the project
 
-私たちは学び続けています。あなたの質問が次の改善につながります。
+**Q: What is the goal? Adoption?**
+
+A: No. The goal is to leave a record — a document that, years from now, can be pointed to as "someone asked these questions at this moment". Adoption and attention are not measures of success ([design-axis.md](./docs/design-axis.md) §0, Japanese).
+
+**Q: Why not just use MIT, GPL or Creative Commons?**
+
+A: Existing licences rest on copyright. Where a work contains parts in which no copyright subsists — such as LLM-generated code — a licence has nothing to grant there. ACCRL's Part II (pledges and invitations) is a norm that does not depend on copyright, so it reaches those parts as a norm. ACCRL does not replace other licences; it covers ground they do not.
+
+### Legal nature
+
+**Q: Is it legally enforceable?**
+
+A: Not against users. That is by design.
+
+- **Part I (grant and undertakings)** is legally operative, but it binds only the adopter — the person who applied ACCRL to their own work. The adopter makes an irrevocable grant and undertakes not to take legal action on the basis of the pledges in Part II.
+- **Part II (pledges and invitations)** is not a contract and imposes no legal obligation on anyone.
+
+The only person legally bound by ACCRL is the one who chose to adopt it.
+
+**Q: Why call it a "licence" if it is not enforceable against users?**
+
+A: Declaring it a licence makes users aware that the work carries norms. Enforceability is not a requirement for being a licence. ACCRL is "a licence in form, a pledge in substance".
+
+**Q: What happens to moral rights?**
+
+A: They are neither waived nor transferred; they remain with the creator. ACCRL creates no conditions or obligations on the basis of moral rights. It also deliberately stays silent: the adopter undertakes neither to exercise them nor to refrain from exercising them. Declaring non-exercise would risk giving up the shield; stating exercise outright would chill users. Moral rights are a matter of law, left to the law and to each situation (v0.3 Art. 5).
+
+**Q: What if a use does not accord with the pledges?**
+
+A: The grant does not terminate, and the adopter does not take legal action on the basis of the pledges. ACCRL's only response is dialogue. No one is given authority to determine whether a use accords with the pledges. Where a use infringes rights the law itself protects (moral rights, for example), that remains a matter for the law.
+
+### AI
+
+**Q: May the work be used for AI training?**
+
+A: By default, yes — Part I includes AI training. Those who train are invited to respect Invisible Contributors and to disclose the use. An adopter may exclude AI training from the grant by making a reservation (Article 2.2); the legal effect of the reservation depends on each jurisdiction's law. Expressing the reservation in machine-readable form as well is recommended.
+
+**Q: Can AI make the pledge?**
+
+A: No. Only humans can pledge.
+
+**Q: How does this relate to the `Assisted-by:` trailer?**
+
+A: They are compatible. `Assisted-by: LLM` corresponds to transparency level 1; naming the AI system or model corresponds to level 2.
+
+### Using it
+
+**Q: How do I adopt it?**
+
+A: In one line:
+
+```
+SPDX-License-Identifier: LicenseRef-ACCRL-0.3
+```
+
+The declaration of adoption is itself a declaration of the pledges in Article 6. See [v0.3 Appendix A](./translations/en/LICENSE-v0.3-PROTOTYPE.md#appendix-a-declaring-adoption) (English translation; the Japanese text is the original).
+
+**Q: Must derivatives also use ACCRL?**
+
+A: No. ACCRL invites you to carry forward respect — attribution and notice that the pledges exist — not the licence.
+
+**Q: Isn't this Japan-centric?**
+
+A: It starts from Japanese thinking on moral rights, but does not claim universality. It offers itself as one option among the creative ethics of other jurisdictions and cultures.
+
+---
+
+## さらに質問がある場合 / More questions
+
+- GitHub Issues / Discussions

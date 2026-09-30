@@ -2,7 +2,7 @@
 
 ## 概要
 
-AI Collective Creativity Respect License (ACCRL) の国際的な普及のため、各言語への翻訳を進めています。翻訳にあたっては、単なる言語変換ではなく、各文化圏での理解しやすさと法的適用可能性を重視します。
+AI Collective Creativity Respect License (ACCRL) のコアは日本語の条文です。翻訳は、その理念を世に問うために作ります。翻訳にあたっては、単なる言語変換ではなく、各文化圏での理解しやすさと法的適用可能性を重視します。
 
 ## 翻訳の原則
 
@@ -12,6 +12,8 @@ AI Collective Creativity Respect License (ACCRL) の国際的な普及のため�
 - 法的正確性と読みやすさのバランス
 
 ### 2. 重要概念の扱い
+
+> **v0.3 の訳語は [GLOSSARY.md](./GLOSSARY.md) を正とする。** 以下の表と「日英対照表」は v0.1 期のものである。v0.3 では概念が改められたため、訳語が異なるものがある（例：継承 = Inheritance → Carry Respect Forward、派生著作物 = Derivative Work → Derivative、誓約は covenant ではなく pledge）。
 
 | 日本語 | 英語 | 説明 |
 |--------|------|------|
@@ -54,7 +56,8 @@ AI Collective Creativity Respect License (ACCRL) の国際的な普及のため�
 
 | 言語 | 状態 | 主要翻訳者 | レビュー状況 |
 |------|------|-----------|-------------|
-| 英語 | 初稿完成 | AI協働 | レビュー待ち |
+| 英語（v0.3） | 初稿完成（2026-09-29） | AI協働 | AIによる査読済み・人間の確認待ち |
+| 英語（v0.1） | 凍結（v0.1 とともに） | AI協働 | - |
 | 中国語(簡体字) | 未着手 | - | - |
 | 中国語(繁体字) | 未着手 | - | - |
 | 韓国語 | 未着手 | - | - |
@@ -67,11 +70,12 @@ AI Collective Creativity Respect License (ACCRL) の国際的な普及のため�
 ```
 translations/
 ├── README.md (このファイル)
-├── GLOSSARY.md (用語集)
+├── GLOSSARY.md (用語集。v0.3 の日英)
 ├── en/
-│   ├── LICENSE-v0.1-PROTOTYPE.md
-│   ├── README.md
-│   └── philosophy.md
+│   ├── LICENSE-v0.3-PROTOTYPE.md (現行版の英訳)
+│   ├── LICENSE-v0.1-PROTOTYPE.md (凍結)
+│   ├── README.md (予定)
+│   └── philosophy.md (予定)
 ├── zh-CN/
 ├── zh-TW/
 ├── ko/
@@ -132,6 +136,8 @@ translations/
 | 理念 | Philosophy/Principle |
 
 ### 翻訳で注意すべき表現
+
+> v0.1 期の説明。v0.3 の助動詞の方針は [GLOSSARY.md](./GLOSSARY.md) §4 に従う（利用者を主語にした shall / must / should は用いない）。
 
 1. **"shall" vs "should"**
    - shall: 義務（法的拘束力あり）

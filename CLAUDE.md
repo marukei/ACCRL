@@ -8,7 +8,7 @@ AI Collective Creativity Respect License (ACCRL) - AI時代における新しい
 
 ### 特徴
 - **ライセンス開発プロジェクト**（コードベースではない）
-- **概念実証プロトタイプ** - 0.1-PROTOTYPEレベルの実験的取り組み
+- **概念実証プロトタイプ** - PROTOTYPEレベルの実験的取り組み（現行は v0.3-PROTOTYPE）
 - **理念先行型アプローチ** - 実装の完璧性より理念の提唱を優先
 - **人格権中心主義** - 著作権ではなく著作者人格権を保護の基軸とする
 - **AI協働の透明性** - 人間とAIの創作的寄与を明確に分離・記録
@@ -33,10 +33,13 @@ AI Collective Creativity Respect License (ACCRL) - AI時代における新しい
 
 ```
 ACCRL/
-├── LICENSE-v0.1-PROTOTYPE.md  # ライセンス条文案（メインドキュメント）
-├── LICENSE                    # 自己適用ライセンス
-├── README.md                 # プロジェクト概要（作成済み）
-├── KNOWN_ISSUES.md           # 既知の課題と議論の呼びかけ
+├── LICENSE-v0.3-PROTOTYPE.md  # 現行版（2026-09-29承認、採用者の許諾と約束＋誓約と呼びかけ）
+├── LICENSE-v0.2-PROTOTYPE.md  # 草案（2026-08、歴史的記録として凍結）
+├── LICENSE-v0.1-PROTOTYPE.md  # 初版条文（歴史的記録として凍結）
+├── LICENSE                    # 自己適用ライセンス（v0.3、人間創作者の採用の表明）
+├── README.md                 # プロジェクト概要（入口。短く保つ）
+├── KNOWN_ISSUES.md           # 既知の課題と議論の呼びかけ（2025-07時点＋2026-09追記）
+├── NOTICE-AI-COLLABORATION.md # AI協働の開示（Assisted-by: との関係含む）
 ├── FAQ.md                    # よくある質問
 ├── CODE_OF_CONDUCT.md        # コミュニティ行動規範
 ├── ANTI_HARASSMENT_POLICY.md # 荒らし対策
@@ -44,7 +47,12 @@ ACCRL/
 ├── CONTRIBUTING.md           # 協働ガイドライン
 ├── CLAUDE.md                 # このファイル
 ├── docs/
-│   ├── philosophy.md         # 詳細理念説明
+│   ├── design-axis.md        # 非強制軸の設計思想（2026-08、思想の核）
+│   ├── open-questions.md     # 未解決の設計課題
+│   ├── 2026-review.md        # 2026-08時点の外部環境（思想と分離して管理）
+│   ├── 2026-09-review.md     # 外部環境の追補（2026-08→09）
+│   ├── sources.md            # 一次資料リンク集と検証状況
+│   ├── philosophy.md         # 詳細理念説明（初版時点）
 │   ├── legal-analysis/       # 法的分析文書
 │   ├── transparency-records/ # 透明性記録
 │   └── collaboration-disciplines/ # 協働規律
@@ -57,12 +65,27 @@ ACCRL/
     └── ISSUE_TEMPLATE/       # Issue テンプレート
 ```
 
+### 2026-08 リブート以降の最重要規律
+
+1. **採用率を目標にしない。** 普及・話題性・採用実績を根拠にした助言や価値判断は行わない（docs/design-axis.md §0）
+2. **非強制（Non-Coercion）が設計の中核軸。** 4つの設計判断（人格権軸・非感染・理念先行・地域多様性）は一本の軸の派生であり、個別の欠陥として数えない
+3. **外部環境データ（docs/2026-review.md）は背景資料であり、価値判断の根拠に使わない**
+4. **思想（design-axis）と外部状況（2026-review）は必ず別ファイルで管理する**
+5. **批評は内在的（思想の不明瞭・矛盾の指摘）であるべきで、外形的（使われていない・法的に不利）であってはならない**
+6. **未確認の外部情報はリポジトリに載せない。載せる場合は「未確認」と明記する**（docs/sources.md で検証状況を管理）
+7. **「器はライセンス、実態は誓約」は決定済み（2026-08-12）。** "License" の名は維持し、条文は許諾＋誓約の二部構成とする。この決定を再び蒸し返さない（docs/transparency-records/2026-08-12-vessel-decision.md）
+8. **v0.3 の二つの原則（2026-09-29）**: 法的に拘束されるのは採用者だけ（利用者に法的義務を課さない）。規範（第II部）は著作権に依存しない。条文を書くときは「約束」（第I部、法的に作用する採用者の約束）と「誓約」（第II部、法的義務を生じない規範）の語を混同しない。誓約は一人称で行い、同意していない人に誓約を帰属させない
+9. **誓約できるのは人間だけ。** AI（Claude を含む）は採用者として誓約しない。自己適用ライセンス（LICENSE）の版を切り替えることは採用者の誓約にあたるため、人間創作者の判断なしに行わない（2026-09-29、人間創作者の判断で v0.3 に切り替え済み）
+10. **過去の版と記録は改変しない。** 過去の条文は凍結し、外部環境の記録の誤りは〔YYYY-MM 訂正〕の注記を付けて見える形で訂正する
+11. **人格権は「意図的な沈黙」（2026-09-29決定）。** ACCRL は採用者が人格権を行使しないことも、行使することも約束しない。不行使の宣言は盾を手放す危険を、行使の明言は萎縮を生むため。この曖昧さは選択であり、「未解決」や「欠陥」として扱わない。蒸し返さない（docs/transparency-records/2026-09-29-v0.3-approval.md）
+12. **細かい議論が増えたら原点に立ち返る（2026-09-30）。** 原点の5点（docs/design-axis.md §1.1）のどれにも触れない論点は、本丸（open-questions）に登録しない。コアは日本語であり、英語は世に問うために作る。翻訳から生じた論点を、日本語のコアを変える理由にしない。サブエージェントの合議は細部を深めるのに長けるが、何が本丸かの判断は司令塔が原点に照らして行う（docs/transparency-records/2026-09-30-return-to-origin.md）
+
 ### 3. ライセンス条文作成時の注意点
 
 #### 基本原則の反映
 以下の5つの原則を必ず反映させる：
 1. **創作人格の不可侵性** - 人間の創作的人格の発露を最高価値として保護
-2. **人格権継承の義務** - 原創作者の思想・美学・意図の尊重
+2. **敬意継承の誓約**（旧称「人格権継承の義務」） - 継承されるのは権利でもライセンスでもなく、原創作者の思想・美学・意図への敬意
 3. **協働プロセスの透明性** - AI協働における人間の判断の明示
 4. **文化的多様性の尊重** - 異なる法域との共存
 5. **学習データ著作者への敬意** - 見えない貢献者への配慮
@@ -207,7 +230,7 @@ ACCRLプロジェクトでは、以下の4フェーズサイクルで議論を�
 4. **適用例** - 実際のプロジェクトでの運用例
 
 ### 文書の相互関係
-- `LICENSE-v0.1-PROTOTYPE.md` ← 法的拘束力のある本体
+- `LICENSE-v0.3-PROTOTYPE.md` ← 現行版（第I部のみ法的に作用し、拘束されるのは採用者だけ）
 - `docs/philosophy.md` ← 理念の詳細説明
 - `examples/` ← 実践的な適用方法
 - `CONTRIBUTING.md` ← このライセンス自体への貢献方法
@@ -230,6 +253,14 @@ ACCRLプロジェクトでは、以下の4フェーズサイクルで議論を�
 - [防御的構造](./docs/transparency-records/2025-07-15-defensive-structure.md)
 - [謙虚なリポジショニング](./docs/transparency-records/2025-07-16-humility-repositioning.md)
 - [最終準備作業](./docs/transparency-records/2025-07-16-final-preparations.md)
+- [13ヶ月ぶりのリブート](./docs/transparency-records/2026-08-12-reboot.md)
+- [器と呼称の決定](./docs/transparency-records/2026-08-12-vessel-decision.md)
+- [v0.3 の起草](./docs/transparency-records/2026-09-29-v0.3-drafting.md)
+- [v0.3 の承認と採用](./docs/transparency-records/2026-09-29-v0.3-approval.md)
+- [自己署名と英訳](./docs/transparency-records/2026-09-29-signing-and-translation.md)
+- [公開前の文言修正と署名](./docs/transparency-records/2026-09-30-v0.3-wording-corrections.md)
+- [原点への回帰](./docs/transparency-records/2026-09-30-return-to-origin.md)
+- [マージ前のレビュー](./docs/transparency-records/2026-09-30-pre-merge-review.md)
 
 ## 協働規律 / Collaboration Disciplines
 

@@ -1,5 +1,9 @@
 # 既知の課題と議論の呼びかけ / Known Issues and Call for Discussion
 
+> **2026-08 追記**: 本文書は2025年7月時点の課題一覧である。13ヶ月後の再検討で「本丸」と判断した設計課題は [docs/open-questions.md](./docs/open-questions.md) に絞り込んで整理した。あわせて参照のこと。
+>
+> **Note (2026-08)**: This document reflects the issues as of July 2025. The core design questions identified in the 13-month review are consolidated in [docs/open-questions.md](./docs/open-questions.md).
+
 ## 💡 本文書の目的 / Purpose of This Document
 
 このプロジェクトは**理念先行型プロトタイプ**です。完璧なソリューションではなく、AI時代の創作倫理について具体的な議論を促すための叩き台として公開しています。
@@ -24,6 +28,20 @@ This project is an **idealism-first prototype**. Rather than a perfect solution,
 - 各国の法制度における人格権の実装可能性
 - 既存のライセンス体系との整合性
 - 法的リスクの具体的な評価
+
+#### 2026-09 追記：v0.3 の法的精度 / Addendum (September 2026): Legal Precision in v0.3
+
+v0.3 の英訳を日本語に戻す往復翻訳で、原文そのものの論点として浮かび上がったもの（[透明性記録](./docs/transparency-records/2026-09-29-signing-and-translation.md)）。Phase 1（法的精度の向上）の課題とする。
+
+These surfaced as issues in the original text itself during the round-trip translation check of v0.3 (Japanese → English → Japanese). They are treated as Phase 1 (legal precision) tasks.
+
+**日本語：**
+- **第12条（保証の否認と責任の制限）**：「採用者と創作者は」責任を負わないとし、採用者でない創作者まで免責している。しかし v0.3 で法的に拘束されるのは採用者だけであり、採用者でない創作者は本ライセンスの当事者ではない。第三者のための免責をライセンスで定められるかどうかは、法域によって扱いが異なりうる（未検討）
+- **第14条（準拠法）**：「第II部は法的義務を生じないため、準拠法を持たない」とする。しかし、第II部が契約でない（法的義務を生じない）という性質そのものを、どの法が判断するのかは定めていない
+
+**English:**
+- **Article 12 (disclaimer of warranty and limitation of liability)**: It states that "the Adopter and the Creators" are not liable, which extends the disclaimer to Creators who are not the Adopter. Under v0.3, however, the only person legally bound is the Adopter; a Creator who is not the Adopter is not a party to this License. Whether a licence can limit liability for third parties may differ by jurisdiction (not yet examined)
+- **Article 14 (governing law)**: It states that Part II "has no governing law" because it gives rise to no legal obligation. It does not say which law decides that Part II is not a contract in the first place
 
 ### 2. 実装の複雑さ / Implementation Complexity
 
