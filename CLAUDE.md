@@ -8,7 +8,7 @@ AI Collective Creativity Respect License (ACCRL) - AI時代における新しい
 
 ### 特徴
 - **ライセンス開発プロジェクト**（コードベースではない）
-- **概念実証プロトタイプ** - 0.1-PROTOTYPEレベルの実験的取り組み
+- **概念実証プロトタイプ** - PROTOTYPEレベルの実験的取り組み（現行は v0.3-PROTOTYPE）
 - **理念先行型アプローチ** - 実装の完璧性より理念の提唱を優先
 - **人格権中心主義** - 著作権ではなく著作者人格権を保護の基軸とする
 - **AI協働の透明性** - 人間とAIの創作的寄与を明確に分離・記録
@@ -38,7 +38,7 @@ ACCRL/
 ├── LICENSE-v0.1-PROTOTYPE.md  # 初版条文（歴史的記録として凍結）
 ├── LICENSE                    # 自己適用ライセンス（v0.3、人間創作者の採用の表明）
 ├── README.md                 # プロジェクト概要（入口。短く保つ）
-├── KNOWN_ISSUES.md           # 既知の課題と議論の呼びかけ（2025-07時点）
+├── KNOWN_ISSUES.md           # 既知の課題と議論の呼びかけ（2025-07時点＋2026-09追記）
 ├── NOTICE-AI-COLLABORATION.md # AI協働の開示（Assisted-by: との関係含む）
 ├── FAQ.md                    # よくある質問
 ├── CODE_OF_CONDUCT.md        # コミュニティ行動規範
@@ -260,6 +260,7 @@ ACCRLプロジェクトでは、以下の4フェーズサイクルで議論を�
 - [自己署名と英訳](./docs/transparency-records/2026-09-29-signing-and-translation.md)
 - [公開前の文言修正と署名](./docs/transparency-records/2026-09-30-v0.3-wording-corrections.md)
 - [原点への回帰](./docs/transparency-records/2026-09-30-return-to-origin.md)
+- [マージ前のレビュー](./docs/transparency-records/2026-09-30-pre-merge-review.md)
 
 ## 協働規律 / Collaboration Disciplines
 

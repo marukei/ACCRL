@@ -2,7 +2,7 @@
 
 ## 概要
 
-AI Collective Creativity Respect License (ACCRL) の国際的な普及のため、各言語への翻訳を進めています。翻訳にあたっては、単なる言語変換ではなく、各文化圏での理解しやすさと法的適用可能性を重視します。
+AI Collective Creativity Respect License (ACCRL) のコアは日本語の条文です。翻訳は、その理念を世に問うために作ります。翻訳にあたっては、単なる言語変換ではなく、各文化圏での理解しやすさと法的適用可能性を重視します。
 
 ## 翻訳の原則
 
@@ -136,6 +136,8 @@ translations/
 | 理念 | Philosophy/Principle |
 
 ### 翻訳で注意すべき表現
+
+> v0.1 期の説明。v0.3 の助動詞の方針は [GLOSSARY.md](./GLOSSARY.md) §4 に従う（利用者を主語にした shall / must / should は用いない）。
 
 1. **"shall" vs "should"**
    - shall: 義務（法的拘束力あり）

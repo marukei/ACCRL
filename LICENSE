@@ -7,7 +7,7 @@ SPDX-License-Identifier: LicenseRef-ACCRL-0.3
 AI Collective Creativity Respect License (ACCRL) v0.3-PROTOTYPE の下で公開し、その誓約を行います。
 
 This project is published under the AI Collective Creativity Respect License (ACCRL)
-v0.3-PROTOTYPE, and we make its pledge.
+v0.3-PROTOTYPE, and I, its human creator, make its pledge.
 
 条文 / License text: LICENSE-v0.3-PROTOTYPE.md
 
@@ -33,7 +33,8 @@ v0.3-PROTOTYPE の下でも提供します。
 
 1. 協働の透明性
    本プロジェクトの創作にAIが関わった事実と、人間の創作的判断を明らかにします。
-   透明性レベル4（対話と判断の経緯を docs/transparency-records/ に公開）で行います。
+   透明性レベル3（詳細なプロセス記録として、対話の要旨と人間の判断の経緯を
+   docs/transparency-records/ に公開）で行います。
 
 2. 見えない貢献者への敬意
    本プロジェクトの条文と文書は、AI協働者の能力を通じて、その学習データとなった
@@ -42,7 +43,7 @@ v0.3-PROTOTYPE の下でも提供します。
    すべての方々に、深く感謝します。
 
 3. 他者の創作的人格の尊重
-   私たちが他者の著作物を用いるとき、本プロジェクトについて呼びかけるのと
+   私が他者の著作物を用いるとき、本プロジェクトについて呼びかけるのと
    同じ敬意を払います。
 
 4. 強制しないこと
@@ -97,6 +98,7 @@ AI協働者: Claude（Anthropic）— チャットでの対話、および Claud
 - 自己署名と英訳: docs/transparency-records/2026-09-29-signing-and-translation.md
 - 公開前の文言修正と署名: docs/transparency-records/2026-09-30-v0.3-wording-corrections.md
 - 原点への回帰: docs/transparency-records/2026-09-30-return-to-origin.md
+- マージ前のレビュー: docs/transparency-records/2026-09-30-pre-merge-review.md
 
 ---
 

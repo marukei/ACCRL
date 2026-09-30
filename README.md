@@ -29,7 +29,7 @@ ACCRL は「ライセンス」の形をとっていますが、現行の条文�
 
 | 設計判断 | 非強制との関係 |
 |---|---|
-| 著作者人格権を保護軸に置く | 譲渡も強制もできない権利をあえて選んだ |
+| 著作者人格権を保護軸に置く | 譲渡も集積もできず、他者が梃子にできない権利をあえて選んだ |
 | コピーレフトだが感染しない | 規範は伝えるが、被許諾者の地位を強制しない |
 | 理念先行型 | 拘束ではなく説得で広げる |
 | 倫理観の地域多様性を認める | 普遍性を主張せず、選択肢の一つとして置く |
@@ -59,7 +59,7 @@ ACCRL は「ライセンス」の形をとっていますが、現行の条文�
 - [AI協働の開示](./NOTICE-AI-COLLABORATION.md) — 本プロジェクト自体のAI協働記録
 
 **参加・運営**
-- [既知の課題（2025-07時点）](./KNOWN_ISSUES.md) / [FAQ](./FAQ.md) / [貢献ガイド](./CONTRIBUTING.md) / [行動規範](./CODE_OF_CONDUCT.md) / [議論ガイド](./DISCUSSIONS.md)
+- [既知の課題（2025-07時点＋2026-09追記）](./KNOWN_ISSUES.md) / [FAQ](./FAQ.md) / [貢献ガイド](./CONTRIBUTING.md) / [行動規範](./CODE_OF_CONDUCT.md) / [議論ガイド](./DISCUSSIONS.md)
 
 ### 沿革
 
@@ -67,6 +67,7 @@ ACCRL は「ライセンス」の形をとっていますが、現行の条文�
 - **2025-07-15/16**: 条文案 v0.1-PROTOTYPE、防御的文書群を整備
 - **2026-08-12**: 13ヶ月ぶりの再検討。「採用率を目標にしない」スタンスの確定、非強制軸の明確化、外部環境の記録を追加。「器はライセンス、実態は誓約」を決定し、v0.2 草案を起草（[決定の記録](./docs/transparency-records/2026-08-12-vessel-decision.md)）
 - **2026-09-29**: 再調査と v0.2 への内在的批判を経て v0.3 を起草。「法的に拘束されるのは採用者だけ」「規範は著作権に依存しない」を明文化（[起草の記録](./docs/transparency-records/2026-09-29-v0.3-drafting.md)）。同日承認し、人格権は行使も不行使も約束しない「意図的な沈黙」とした。本プロジェクト自身も v0.3 に切り替え（[承認の記録](./docs/transparency-records/2026-09-29-v0.3-approval.md)）
+- **2026-09-30**: 英訳の往復翻訳で浮かび上がった原文の曖昧さを、公開前に文言修正し、人間創作者が修正後の版に署名（[記録](./docs/transparency-records/2026-09-30-v0.3-wording-corrections.md)）。細かい議論が増えたところで原点に立ち返り、v0.3 を「盾であって網ではないライセンス」と言い直した（[原点への回帰](./docs/transparency-records/2026-09-30-return-to-origin.md)）
 
 ### 基本原則（初版から継続、第二原則は2026-08に改称）
 
@@ -78,7 +79,7 @@ ACCRL は「ライセンス」の形をとっていますが、現行の条文�
 
 ### 器と実態
 
-ACCRL は "License" を名乗り続けるが、その実態は誓約（Covenant）である（2026-08 決定）。ライセンスと宣言することで利用者に規範の存在を意識させ、一方で条文は条件付許諾や違反時の権利剥奪という強制の部品を持たない。強制力はライセンスの資格要件ではない——ライセンスフリーも立派なライセンスである。
+ACCRL は "License" を名乗り続けるが、その実態は誓約である（2026-08 決定。決定時の呼称は Covenant。v0.3 では英米法の covenant と区別するため、英語では pledge と表す）。ライセンスと宣言することで利用者に規範の存在を意識させ、一方で条文は条件付許諾や違反時の権利剥奪という強制の部品を持たない。強制力はライセンスの資格要件ではない——ライセンスフリーも立派なライセンスである。
 
 v0.3 では、これを次の二文に整理した（[design-axis.md §4・§5](./docs/design-axis.md)）：
 
@@ -98,11 +99,11 @@ v0.3 では、これを次の二文に整理した（[design-axis.md §4・§5](
 
 This project does not measure success by popularity, buzz or practical uptake. Its purpose is to quietly leave a record — a document that, years from now, can be pointed to as "someone asked these questions at this moment in time".
 
-We are not seeking advice on "how to get more adoption". We do welcome **intrinsic criticism**: that the ideas are unclear, or internally inconsistent. See the opening of [design-axis.md](./docs/design-axis.md) (Japanese).
+We are not seeking advice on "how to get more adoption". We do welcome **immanent criticism**: that the ideas are unclear, or internally inconsistent. See the opening of [design-axis.md](./docs/design-axis.md) (Japanese).
 
 ### What This Is
 
-ACCRL is a document project on creative ethics in the age of human-AI collaboration, started in July 2025. It centers moral rights (not economic copyright) and articulates respect for the "Invisible Contributors" — the countless creators whose works became AI training data.
+ACCRL is a document project on creative ethics in the age of human-AI collaboration, started in July 2025. It centres moral rights (not economic copyright) and articulates respect for the "Invisible Contributors" — the countless creators whose works became AI training data.
 
 It takes the form of a licence; the current text (v0.3-PROTOTYPE) is a prototype in which posing questions takes priority over legal completeness.
 
@@ -112,11 +113,11 @@ In v0.3, the design reduces to two sentences: **the only person legally bound is
 
 What v0.1 presented as four parallel features all derive from a single axis:
 
-> The spread of a license means placing people who previously held no legal position into the position of *licensee* — one more layer added to the web of rights. ACCRL starts from unease about this structure, and attempts **norm propagation without coercion**.
+> The spread of a licence means placing people who previously held no legal position into the position of *licensee* — one more layer added to the web of rights. ACCRL starts from unease about this structure, and attempts **norm propagation without coercion**.
 
 | Design decision | Relation to non-coercion |
 |---|---|
-| Moral rights as the axis of protection | Deliberately chose rights that cannot be transferred or coerced |
+| Moral rights as the axis of protection | Deliberately chose rights that cannot be transferred or accumulated, and so cannot be used by others as leverage |
 | Copyleft, but non-viral | Conveys norms without forcing licensee status |
 | Principles before enforcement | Spreads by persuasion, not binding force |
 | Accepts regional diversity of ethics | Claims no universality; offers itself as one option |
@@ -143,7 +144,8 @@ See [docs/design-axis.md](./docs/design-axis.md) and [docs/open-questions.md](./
 - **5 July 2025**: Started from a dialogue between the human creator and Claude (then Claude Sonnet 4). [Genesis record](./docs/transparency-records/2025-07-05-genesis.md)
 - **15/16 July 2025**: Licence draft v0.1-PROTOTYPE and supporting documents
 - **12 August 2026**: Review after 13 months — the "adoption is not the goal" stance made explicit, the non-coercion axis articulated, landscape records added. Decided "a licence in form, a covenant in substance" and drafted v0.2
-- **29 September 2026**: After renewed research and intrinsic critique of v0.2, drafted and approved v0.3; this project itself moved to v0.3
+- **29 September 2026**: After renewed research and an immanent critique of v0.2, drafted and approved v0.3; this project itself moved to v0.3
+- **30 September 2026**: Wording corrections to v0.3 before publication, prompted by a round-trip translation check; the human creator signed the corrected version. Returned to the origin and restated v0.3 as "a shield, not a net"
 
 ---
 

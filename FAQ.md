@@ -109,7 +109,7 @@ A: No. The goal is to leave a record — a document that, years from now, can be
 
 **Q: Why not just use MIT, GPL or Creative Commons?**
 
-A: Existing licences rest on copyright. Where a work contains parts in which no copyright subsists — such as LLM-generated code — a licence has nothing to grant there. ACCRL's Part II (the pledge) is a norm that does not depend on copyright, so it reaches those parts as a norm. ACCRL does not replace other licences; it covers ground they do not.
+A: Existing licences rest on copyright. Where a work contains parts in which no copyright subsists — such as LLM-generated code — a licence has nothing to grant there. ACCRL's Part II (pledges and invitations) is a norm that does not depend on copyright, so it reaches those parts as a norm. ACCRL does not replace other licences; it covers ground they do not.
 
 ### Legal nature
 
@@ -117,28 +117,28 @@ A: Existing licences rest on copyright. Where a work contains parts in which no 
 
 A: Not against users. That is by design.
 
-- **Part I (grant and undertakings)** is legally operative, but it binds only the adopter — the person who applied ACCRL to their own work. The adopter makes an irrevocable grant and undertakes not to take legal action on the basis of the pledge.
-- **Part II (pledge and invitation)** is not a contract and imposes no legal obligation on anyone.
+- **Part I (grant and undertakings)** is legally operative, but it binds only the adopter — the person who applied ACCRL to their own work. The adopter makes an irrevocable grant and undertakes not to take legal action on the basis of the pledges in Part II.
+- **Part II (pledges and invitations)** is not a contract and imposes no legal obligation on anyone.
 
 The only person legally bound by ACCRL is the one who chose to adopt it.
 
-**Q: Why call it a "licence" if it has no coercive force?**
+**Q: Why call it a "licence" if it is not enforceable against users?**
 
-A: Declaring it a licence makes users aware that the work carries norms. Coercive force is not a requirement for being a licence. ACCRL is "a licence in form, a pledge in substance".
+A: Declaring it a licence makes users aware that the work carries norms. Enforceability is not a requirement for being a licence. ACCRL is "a licence in form, a pledge in substance".
 
 **Q: What happens to moral rights?**
 
-A: They are neither waived nor transferred; they remain with the creator. ACCRL creates no conditions or obligations on the basis of moral rights. It also deliberately stays silent: the adopter promises neither to assert nor not to assert them. Declaring non-assertion would risk giving up the shield; declaring assertion would chill users. Moral rights are a matter of law, left to the law and to each situation (v0.3 Art. 5).
+A: They are neither waived nor transferred; they remain with the creator. ACCRL creates no conditions or obligations on the basis of moral rights. It also deliberately stays silent: the adopter undertakes neither to exercise them nor to refrain from exercising them. Declaring non-exercise would risk giving up the shield; stating exercise outright would chill users. Moral rights are a matter of law, left to the law and to each situation (v0.3 Art. 5).
 
-**Q: What if someone does not follow the pledge?**
+**Q: What if a use does not accord with the pledges?**
 
-A: The grant does not terminate, and the adopter does not sue on the basis of the pledge. ACCRL's only response is dialogue. No one is given authority to judge conformity.
+A: The grant does not terminate, and the adopter does not take legal action on the basis of the pledges. ACCRL's only response is dialogue. No one is given authority to determine whether a use accords with the pledges. Where a use infringes rights the law itself protects (moral rights, for example), that remains a matter for the law.
 
 ### AI
 
 **Q: May the work be used for AI training?**
 
-A: By default, yes — Part I includes AI training. Those who train are invited to respect the invisible contributors and to disclose the use. An adopter may reserve AI training out of the grant; the legal effect of the reservation depends on each jurisdiction's law. Expressing the reservation in machine-readable form as well is recommended.
+A: By default, yes — Part I includes AI training. Those who train are invited to respect Invisible Contributors and to disclose the use. An adopter may exclude AI training from the grant by making a reservation (Article 2.2); the legal effect of the reservation depends on each jurisdiction's law. Expressing the reservation in machine-readable form as well is recommended.
 
 **Q: Can AI make the pledge?**
 
@@ -158,11 +158,11 @@ A: In one line:
 SPDX-License-Identifier: LicenseRef-ACCRL-0.3
 ```
 
-The act of adopting is itself the pledge. See [v0.3 Appendix A](./LICENSE-v0.3-PROTOTYPE.md) (Japanese; English translation planned).
+The declaration of adoption is itself a declaration of the pledges in Article 6. See [v0.3 Appendix A](./translations/en/LICENSE-v0.3-PROTOTYPE.md#appendix-a-declaring-adoption) (English translation; the Japanese text is the original).
 
 **Q: Must derivatives also use ACCRL?**
 
-A: No. ACCRL invites you to carry forward respect — attribution and notice of the pledge — not the licence.
+A: No. ACCRL invites you to carry forward respect — attribution and notice that the pledges exist — not the licence.
 
 **Q: Isn't this Japan-centric?**
 
